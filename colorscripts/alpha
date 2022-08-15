@@ -15,9 +15,14 @@ initializeANSI
 
 cat << EOF  
   
-${boldon}${heejf}   ██████  ${reset} ${boldon}${hyunf}██████   ${reset}${boldon}${hasef}  ██████${reset} ${boldon}${yeojf}██████  ${reset} ${boldon}${vivif}  ██████${reset} ${boldon}${kimlf}  ███████${reset}
-${boldon}${heejf}   ████████${reset} ${boldon}${hyunf}██    ██ ${reset}${boldon}${hasef}██      ${reset} ${boldon}${yeojf}██    ██${reset} ${boldon}${vivif}██████  ${reset} ${boldon}${kimlf}█████████${reset}
-${heejf}   ██  ████${reset} ${hyunf}██  ████ ${reset}${hasef}████    ${reset} ${yeojf}████  ██${reset} ${vivif}████    ${reset} ${kimlf}█████    ${reset}
-${heejf}   ██    ██${reset} ${hyunf}██████   ${reset}${hasef}████████${reset} ${yeojf}██████  ${reset} ${vivif}████████${reset} ${kimlf}██       ${reset} 
+${heejf}██████  ${reset} ${hyunf}██████  ${reset} ${hasef}  ██████${reset} ${yeojf}██████  ${reset} ${vivif}  ██████${reset} ${kimlf}  ██████${reset} 
+${heejf}████████${reset} ${hyunf}██    ██${reset} ${hasef}██      ${reset} ${yeojf}██    ██${reset} ${vivif}██████  ${reset} ${kimlf}████████${reset}
+${heejf}██  ████${reset} ${hyunf}██  ████${reset} ${hasef}████    ${reset} ${yeojf}████  ██${reset} ${vivif}████    ${reset} ${kimlf}█████   ${reset}
+${heejf}██    ██${reset} ${hyunf}██████  ${reset} ${hasef}████████${reset} ${yeojf}██████  ${reset} ${vivif}████████${reset} ${kimlf}██      ${reset} 
+
+${jinsf}████████${reset} ${choef}██    ██${reset} ${yvesf}████████${reset} ${chuuf}████████${reset} ${gowof}██   ███${reset} ${olivf}██      ${reset} 
+${jinsf}██      ${reset} ${choef}██    ██${reset} ${yvesf}   ██   ${reset} ${chuuf}   ██   ${reset} ${gowof}█████   ${reset} ${olivf}██      ${reset}
+${jinsf}██   ███${reset} ${choef}████████${reset} ${yvesf}   ██   ${reset} ${chuuf}██ ██   ${reset} ${gowof}█████   ${reset} ${olivf}██      ${reset}
+${jinsf}███████ ${reset} ${choef}██    ██${reset} ${yvesf}████████${reset} ${chuuf} ████   ${reset} ${gowof}██   ███${reset} ${olivf}████████${reset} 
  
 EOF
