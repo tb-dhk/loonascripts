@@ -1,4 +1,4 @@
-#compdef colorscript
+#compdef loonascript
 
 DIR_COLORSCRIPTS="/opt/shell-color-scripts/colorscripts"
 
@@ -21,7 +21,7 @@ function _colorscript {
         case $words[2] in
         "exec")
             for colorscript in $(/usr/bin/ls ${DIR_COLORSCRIPTS}); do
-                compadd ${colorscript}
+                compadd ${loonascript}
             done
             ;;
         *)

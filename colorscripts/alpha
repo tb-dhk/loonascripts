@@ -14,9 +14,16 @@ initializeANSI()
   heejf="${esc}[38;2;236;0;140m";
   hyunf="${esc}[38;2;255;204;0m";
   hasef="${esc}[38;2;0;166;81m";
-  yellowf="${esc}[33m"   bluef="${esc}[34m";   uwuf="${esc}[35m"
-  cyanf="${esc}[36m";    whitef="${esc}[37m"   whitef="${esc}[37m"
-  
+  yeojf="${esc}[38;2;244;111;31m";
+  vivif="${esc}[38;2;225;152;180m";
+  kimlf="${esc}[38;2;228;26;62m";
+  jinsf="${esc}[38;2;20;36;176m"; 
+  choef="${esc}[38;2;92;44;146m";
+  yvesf="${esc}[38;2;126;0;47m";
+  chuuf="${esc}[38;2;246;144;126m";
+  gowof="${esc}[38;2;48;195;156m";
+  olivf="${esc}[38;2;143;143;143m";
+
   blackb="${esc}[40m";   redb="${esc}[41m";    greenb="${esc}[42m"
   yellowb="${esc}[43m"   blueb="${esc}[44m";   purpleb="${esc}[45m"
   cyanb="${esc}[46m";    whiteb="${esc}[47m"
@@ -36,9 +43,9 @@ initializeANSI
 
 cat << EOF  
   
-${boldon}${heejf}   ██████  ${reset} ${boldon}${greenf}██████   ${reset}${boldon}${yellowf}  ██████${reset} ${boldon}${bluef}██████  ${reset} ${boldon}${purplef}  ██████${reset} ${boldon}${cyanf}  ███████${reset}
-${boldon}${heejf}   ████████${reset} ${boldon}${greenf}██    ██ ${reset}${boldon}${yellowf}██      ${reset} ${boldon}${bluef}██    ██${reset} ${boldon}${purplef}██████  ${reset} ${boldon}${cyanf}█████████${reset}
-${heejf}   ██  ████${reset} ${greenf}██  ████ ${reset}${yellowf}████    ${reset} ${bluef}████  ██${reset} ${purplef}████    ${reset} ${cyanf}█████    ${reset}
-${heejf}   ██    ██${reset} ${greenf}██████   ${reset}${yellowf}████████${reset} ${bluef}██████  ${reset} ${purplef}████████${reset} ${cyanf}██       ${reset} 
+${boldon}${heejf}   ██████  ${reset} ${boldon}${hyunf}██████   ${reset}${boldon}${hasef}  ██████${reset} ${boldon}${yeojf}██████  ${reset} ${boldon}${vivif}  ██████${reset} ${boldon}${kimlf}  ███████${reset}
+${boldon}${heejf}   ████████${reset} ${boldon}${hyunf}██    ██ ${reset}${boldon}${hasef}██      ${reset} ${boldon}${yeojf}██    ██${reset} ${boldon}${vivif}██████  ${reset} ${boldon}${kimlf}█████████${reset}
+${heejf}   ██  ████${reset} ${hyunf}██  ████ ${reset}${hasef}████    ${reset} ${yeojf}████  ██${reset} ${vivif}████    ${reset} ${kimlf}█████    ${reset}
+${heejf}   ██    ██${reset} ${hyunf}██████   ${reset}${hasef}████████${reset} ${yeojf}██████  ${reset} ${vivif}████████${reset} ${kimlf}██       ${reset} 
  
 EOF
