@@ -10,20 +10,18 @@
 #   out of 17 (default + 16 escapes), followed by a 
 #   test use of that color on all nine background 
 #   colors (default + 8 escapes).
- 
-    T='•••'   # The text for the color test
+
+    T='•••••'   # The text for the color test
     
-    echo -e "\n         def     40m     41m     42m     43m     44m     45m     46m     47m";
+    echo -e "\n               heejf  hyunf  hasef  yeojf  vivif  kimlf  jinsf  choef  yvesf  chuuf  gowof  olivf";
     
-    for FGs in '    m' '   1m' '  30m' '1;30m' '  31m' '1;31m' '  32m' \
-               '1;32m' '  33m' '1;33m' '  34m' '1;34m' '  35m' '1;35m' \
-               '  36m' '1;36m' '  37m' '1;37m';
+    for FGs in '236;000;140m' '255;204;000m' '000;166;081m' '244;111;031m' '225;152;180m' '228;026;062m' '020;036;176m' '092;044;146m' '126;000;047m' '246;144;126m' '048;195;156m' '143;143;143m';
     
       do FG=${FGs// /}
-      echo -en " $FGs \033[$FG  $T  "
+      echo -en "\033[38;2;$FG\033[49m $FGs "
       
-      for BG in 40m 41m 42m 43m 44m 45m 46m 47m;
-        do echo -en "$EINS \033[$FG\033[$BG  $T  \033[0m";
+      for BG in '236;000;140m' '255;204;000m' '000;166;081m' '244;111;031m' '225;152;180m' '228;026;062m' '020;036;176m' '092;044;146m' '126;000;047m' '246;144;126m' '048;195;156m' '143;143;143m';
+        do echo -en "\033[38;2;$FG\033[48;2;$BG $T $EINS";
       done
       echo;
     done
