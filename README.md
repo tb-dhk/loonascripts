@@ -6,6 +6,7 @@ see the original [shell-color-scripts](https://github.com/charitarthchugh/shell-
 - removed a few files
     - colorbars (colorscheme not appropriate)
     - colortest-slim (not worth it)
+    - colorwheel (colorscheme not appropriate)
 - adding a few loona-themed colorscripts (not started)
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
