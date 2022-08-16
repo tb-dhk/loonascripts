@@ -5,6 +5,7 @@ source $(dirname $0)/initialise.sh
 initializeANSI
 
 cat << EOF
+
  ${heejf}██  ${hyunf}██  ${hasef}██  ${yeojf}██  ${vivif}██  ${kimlf}██  ${jinsf}██  ${choef}██  ${yvesf}██  ${chuuf}██  ${gowof}██  ${olivf}██
  ${heejf}██  ${hyunf}██  ${hasef}██  ${yeojf}██  ${vivif}██  ${kimlf}██  ${jinsf}██  ${choef}██  ${yvesf}██  ${chuuf}██  ${gowof}██  ${olivf}██
  $rst
