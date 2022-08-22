@@ -9,9 +9,9 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
     - colorwheel (colorscheme not appropriate)
     - elfman (colorscheme not appropriate)
     - illumina (not worth it)
-- adding a few loona-themed colorscripts (not started)
+- adding a few loona-themed colorscripts
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
-    - membershapes
-    - membernamesen
-    - membernameskr
+    - membershapes (pending)
+    - membernamesen (pending)
+    - membernameskr (pending)
