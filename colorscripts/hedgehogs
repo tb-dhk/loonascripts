@@ -1,25 +1,24 @@
-#!/bin/sh
-# ANSI color scheme script by github.com/joshdk https://github.com/joshdk/hedgehogs
-red=$(printf '\e[31m')
-grn=$(printf '\e[32m')
-ylw=$(printf '\e[33m')
-blu=$(printf '\e[34m')
-mag=$(printf '\e[35m')
-cya=$(printf '\e[36m')
+#!/bin/bash
 
-bld=$(printf '\e[1m')
-rst=$(printf '\e[0m')
+# ANSI Color -- use these variables to easily have different color
+#    and format output. Make sure to output the reset sequence after 
+#    colors (f = foreground, b = background), and use the 'off'
+#    feature for anything you turn on.
 
-cat << ART
+my_dir="$(dirname "$0")"
+source $(dirname $0)/initialise.sh
+initializeANSI
 
-$red   ╷╽╽╽╽╽╽╽╽╽╷     $grn    ╷╽╽╽╽╽╽╽╽╽╷    $ylw   ╷╽╽╽╽╽╽╽╽╽╷     $blu    ╷╽╽╽╽╽╽╽╽╽╷    $mag   ╷╽╽╽╽╽╽╽╽╽╷     $cya    ╷╽╽╽╽╽╽╽╽╽╷
-$red  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $grn   ╽┃┃┃┃┃┃┃┃┃┃┃╽   $ylw  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $blu   ╽┃┃┃┃┃┃┃┃┃┃┃╽   $mag  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $cya   ╽┃┃┃┃┃┃┃┃┃┃┃╽
-$red ┪┃┃┃┃┃┃┃┃┃┃' .\   $grn  /. '✿┃┃┃┃┃┃┃┃┃┢  $ylw ┪┃┃┃┃┃┃┃┃┃┃' .\   $blu  /. '✿┃┃┃┃┃┃┃┃┃┢  $mag ┪┃┃┃┃┃┃┃┃┃┃' .\   $cya  /. '✿┃┃┃┃┃┃┃┃┃┢
-$red  ╹┃┃┃┃┃┃┃┃⧓ ___•  $grn •___ ┃┃┃┃┃┃┃┃┃╹   $ylw  ╹┃┃┃┃┃┃┃┃⧓ ___•  $blu •___ ┃┃┃┃┃┃┃┃┃╹   $mag  ╹┃┃┃┃┃┃┃┃⧓ ___•  $cya •___ ┃┃┃┃┃┃┃┃┃╹
-$bld
-$red   ╷╽╽╽╽╽╽╽╽╽╷     $grn    ╷╽╽╽╽╽╽╽╽╽╷    $ylw   ╷╽╽╽╽╽╽╽╽╽╷     $blu    ╷╽╽╽╽╽╽╽╽╽╷    $mag   ╷╽╽╽╽╽╽╽╽╽╷     $cya    ╷╽╽╽╽╽╽╽╽╽╷
-$red  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $grn   ╽┃┃┃┃┃┃┃┃┃┃┃╽   $ylw  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $blu   ╽┃┃┃┃┃┃┃┃┃┃┃╽   $mag  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $cya   ╽┃┃┃┃┃┃┃┃┃┃┃╽
-$red ┪┃┃┃┃┃┃┃┃┃✿' .\   $grn  /. '┃┃┃┃┃┃┃┃┃┃┢  $ylw ┪┃┃┃┃┃┃┃┃┃✿' .\   $blu  /. '┃┃┃┃┃┃┃┃┃┃┢  $mag ┪┃┃┃┃┃┃┃┃┃✿' .\   $cya  /. '┃┃┃┃┃┃┃┃┃┃┢
-$red  ╹┃┃┃┃┃┃┃┃┃ ___•  $grn •___ ⧓┃┃┃┃┃┃┃┃╹   $ylw  ╹┃┃┃┃┃┃┃┃┃ ___•  $blu •___ ⧓┃┃┃┃┃┃┃┃╹   $mag  ╹┃┃┃┃┃┃┃┃┃ ___•  $cya •___ ⧓┃┃┃┃┃┃┃┃╹
-$rst
-ART
+cat << EOF
+
+$heejf   ╷╽╽╽╽╽╽╽╽╽╷     $hyunf    ╷╽╽╽╽╽╽╽╽╽╷    $hasef   ╷╽╽╽╽╽╽╽╽╽╷     $yeojf    ╷╽╽╽╽╽╽╽╽╽╷    $vivif   ╷╽╽╽╽╽╽╽╽╽╷     $kimlf    ╷╽╽╽╽╽╽╽╽╽╷
+$heejf  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $hyunf   ╽┃┃┃┃┃┃┃┃┃┃┃╽   $hasef  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $yeojf   ╽┃┃┃┃┃┃┃┃┃┃┃╽   $vivif  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $kimlf   ╽┃┃┃┃┃┃┃┃┃┃┃╽
+$heejf ┪┃┃┃┃┃┃┃┃┃┃' .\   $hyunf  /. '✿┃┃┃┃┃┃┃┃┃┢  $hasef ┪┃┃┃┃┃┃┃┃┃┃' .\   $yeojf  /. '✿┃┃┃┃┃┃┃┃┃┢  $vivif ┪┃┃┃┃┃┃┃┃┃┃' .\   $kimlf  /. '✿┃┃┃┃┃┃┃┃┃┢
+$heejf  ╹┃┃┃┃┃┃┃┃⧓ ___•  $hyunf •___ ┃┃┃┃┃┃┃┃┃╹   $hasef  ╹┃┃┃┃┃┃┃┃⧓ ___•  $yeojf •___ ┃┃┃┃┃┃┃┃┃╹   $vivif  ╹┃┃┃┃┃┃┃┃⧓ ___•  $kimlf •___ ┃┃┃┃┃┃┃┃┃╹
+
+$jinsf   ╷╽╽╽╽╽╽╽╽╽╷     $choef    ╷╽╽╽╽╽╽╽╽╽╷    $yvesf   ╷╽╽╽╽╽╽╽╽╽╷     $chuuf    ╷╽╽╽╽╽╽╽╽╽╷    $gowof   ╷╽╽╽╽╽╽╽╽╽╷     $olivf    ╷╽╽╽╽╽╽╽╽╽╷
+$jinsf  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $choef   ╽┃┃┃┃┃┃┃┃┃┃┃╽   $yvesf  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $chuuf   ╽┃┃┃┃┃┃┃┃┃┃┃╽   $gowof  ╽┃┃┃┃┃┃┃┃┃┃┃╽    $olivf   ╽┃┃┃┃┃┃┃┃┃┃┃╽
+$jinsf ┪┃┃┃┃┃┃┃┃┃┃' .\   $choef  /. '✿┃┃┃┃┃┃┃┃┃┢  $yvesf ┪┃┃┃┃┃┃┃┃┃┃' .\   $chuuf  /. '✿┃┃┃┃┃┃┃┃┃┢  $gowof ┪┃┃┃┃┃┃┃┃┃┃' .\   $olivf  /. '✿┃┃┃┃┃┃┃┃┃┢
+$jinsf  ╹┃┃┃┃┃┃┃┃⧓ ___•  $choef •___ ┃┃┃┃┃┃┃┃┃╹   $yvesf  ╹┃┃┃┃┃┃┃┃⧓ ___•  $chuuf •___ ┃┃┃┃┃┃┃┃┃╹   $gowof  ╹┃┃┃┃┃┃┃┃⧓ ___•  $olivf •___ ┃┃┃┃┃┃┃┃┃╹
+
+EOF
