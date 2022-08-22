@@ -1,41 +1,22 @@
-#!/bin/sh
+#!/bin/bash
 
 # ANSI Color -- use these variables to easily have different color
 #    and format output. Make sure to output the reset sequence after 
 #    colors (f = foreground, b = background), and use the 'off'
 #    feature for anything you turn on.
-# Author: pfh
-# Source: http://crunchbang.org/forums/viewtopic.php?pid=127737#p127737
 
-initializeANSI()
-{
-  esc=""
-
-  blackf="${esc}[30m";   redf="${esc}[31m";    greenf="${esc}[32m"
-  yellowf="${esc}[33m"   bluef="${esc}[34m";   purplef="${esc}[35m"
-  cyanf="${esc}[36m";    whitef="${esc}[37m"
-  
-  blackb="${esc}[40m";   redb="${esc}[41m";    greenb="${esc}[42m"
-  yellowb="${esc}[43m"   blueb="${esc}[44m";   purpleb="${esc}[45m"
-  cyanb="${esc}[46m";    whiteb="${esc}[47m"
-
-  boldon="${esc}[1m";    boldoff="${esc}[22m"
-  italicson="${esc}[3m"; italicsoff="${esc}[23m"
-  ulon="${esc}[4m";      uloff="${esc}[24m"
-  invon="${esc}[7m";     invoff="${esc}[27m"
-
-  reset="${esc}[0m"
-}
-
-# note in this first use that switching colors doesn't require a reset
-# first - the new color overrides the old one.
-
+my_dir="$(dirname "$0")"
+source $(dirname $0)/initialise.sh
 initializeANSI
 
 cat << EOF
 
- ${redf}▒▒▒▒${reset} ${boldon}${redf}▒▒${reset}   ${greenf}▒▒▒▒${reset} ${boldon}${greenf}▒▒${reset}   ${yellowf}▒▒▒▒${reset} ${boldon}${yellowf}▒▒${reset}   ${bluef}▒▒▒▒${reset} ${boldon}${bluef}▒▒${reset}   ${purplef}▒▒▒▒${reset} ${boldon}${purplef}▒▒${reset}   ${cyanf}▒▒▒▒${reset} ${boldon}${cyanf}▒▒${reset} 
- ${redf}▒▒ ■${reset} ${boldon}${redf}▒▒${reset}   ${greenf}▒▒ ■${reset} ${boldon}${greenf}▒▒${reset}   ${yellowf}▒▒ ■${reset} ${boldon}${yellowf}▒▒${reset}   ${bluef}▒▒ ■${reset} ${boldon}${bluef}▒▒${reset}   ${purplef}▒▒ ■${reset} ${boldon}${purplef}▒▒${reset}   ${cyanf}▒▒ ■${reset} ${boldon}${cyanf}▒▒${reset}  
- ${redf}▒▒ ${reset}${boldon}${redf}▒▒▒▒${reset}   ${greenf}▒▒ ${reset}${boldon}${greenf}▒▒▒▒${reset}   ${yellowf}▒▒ ${reset}${boldon}${yellowf}▒▒▒▒${reset}   ${bluef}▒▒ ${reset}${boldon}${bluef}▒▒▒▒${reset}   ${purplef}▒▒ ${reset}${boldon}${purplef}▒▒▒▒${reset}   ${cyanf}▒▒ ${reset}${boldon}${cyanf}▒▒▒▒${reset}  
+ ${heejf}▒▒▒▒${reset} ${boldon}${heejf}▒▒${reset}   ${hyunf}▒▒▒▒${reset} ${boldon}${hyunf}▒▒${reset}   ${hasef}▒▒▒▒${reset} ${boldon}${hasef}▒▒${reset}   ${yeojf}▒▒▒▒${reset} ${boldon}${yeojf}▒▒${reset}   ${vivif}▒▒▒▒${reset} ${boldon}${vivif}▒▒${reset}   ${kimlf}▒▒▒▒${reset} ${boldon}${kimlf}▒▒${reset} 
+ ${heejf}▒▒ ■${reset} ${boldon}${heejf}▒▒${reset}   ${hyunf}▒▒ ■${reset} ${boldon}${hyunf}▒▒${reset}   ${hasef}▒▒ ■${reset} ${boldon}${hasef}▒▒${reset}   ${yeojf}▒▒ ■${reset} ${boldon}${yeojf}▒▒${reset}   ${vivif}▒▒ ■${reset} ${boldon}${vivif}▒▒${reset}   ${kimlf}▒▒ ■${reset} ${boldon}${kimlf}▒▒${reset}  
+ ${heejf}▒▒ ${reset}${boldon}${heejf}▒▒▒▒${reset}   ${hyunf}▒▒ ${reset}${boldon}${hyunf}▒▒▒▒${reset}   ${hasef}▒▒ ${reset}${boldon}${hasef}▒▒▒▒${reset}   ${yeojf}▒▒ ${reset}${boldon}${yeojf}▒▒▒▒${reset}   ${vivif}▒▒ ${reset}${boldon}${vivif}▒▒▒▒${reset}   ${kimlf}▒▒ ${reset}${boldon}${kimlf}▒▒▒▒${reset}
+
+ ${jinsf}▒▒▒▒${reset} ${boldon}${jinsf}▒▒${reset}   ${choef}▒▒▒▒${reset} ${boldon}${choef}▒▒${reset}   ${yvesf}▒▒▒▒${reset} ${boldon}${yvesf}▒▒${reset}   ${chuuf}▒▒▒▒${reset} ${boldon}${chuuf}▒▒${reset}   ${gowof}▒▒▒▒${reset} ${boldon}${gowof}▒▒${reset}   ${olivf}▒▒▒▒${reset} ${boldon}${olivf}▒▒${reset} 
+ ${jinsf}▒▒ ■${reset} ${boldon}${jinsf}▒▒${reset}   ${choef}▒▒ ■${reset} ${boldon}${choef}▒▒${reset}   ${yvesf}▒▒ ■${reset} ${boldon}${yvesf}▒▒${reset}   ${chuuf}▒▒ ■${reset} ${boldon}${chuuf}▒▒${reset}   ${gowof}▒▒ ■${reset} ${boldon}${gowof}▒▒${reset}   ${olivf}▒▒ ■${reset} ${boldon}${olivf}▒▒${reset}  
+ ${jinsf}▒▒ ${reset}${boldon}${jinsf}▒▒▒▒${reset}   ${choef}▒▒ ${reset}${boldon}${choef}▒▒▒▒${reset}   ${yvesf}▒▒ ${reset}${boldon}${yvesf}▒▒▒▒${reset}   ${chuuf}▒▒ ${reset}${boldon}${chuuf}▒▒▒▒${reset}   ${gowof}▒▒ ${reset}${boldon}${gowof}▒▒▒▒${reset}   ${olivf}▒▒ ${reset}${boldon}${olivf}▒▒▒▒${reset}
 
 EOF
