@@ -13,5 +13,3 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
     - membershapes (pending)
-    - membernamesen (pending)
-    - membernameskr (pending)
