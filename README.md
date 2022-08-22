@@ -8,6 +8,7 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
     - colortest-slim (not worth it)
     - colorwheel (colorscheme not appropriate)
     - elfman (colorscheme not appropriate)
+    - illumina (not worth it)
 - adding a few loona-themed colorscripts (not started)
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
