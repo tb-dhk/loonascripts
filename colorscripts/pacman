@@ -3,34 +3,27 @@
 # ANSI color scheme script featuring PACMAN
 # Author: pfh
 # Source: http://crunchbang.org/forums/viewtopic.php?pid=144481#p144481 
-# Initializing procedure by lolilolicon
 
-	f=3 b=4
-	for j in f b; do
-	  for i in {0..7}; do
-	    printf -v $j$i %b "\e[${!j}${i}m"
-	  done
-	done
-	bld=$'\e[1m'
-	rst=$'\e[0m'
-	inv=$'\e[7m'
+my_dir="$(dirname "$0")"
+source $(dirname $0)/initialise.sh
+initializeANSI
 
 cat << EOF
 
 $rst
- $f3  ▄███████▄                $f1  ▄██████▄    $f2  ▄██████▄    $f4  ▄██████▄    $f5  ▄██████▄    $f6  ▄██████▄    
- $f3▄█████████▀▀               $f1▄$f7█▀█$f1██$f7█▀█$f1██▄  $f2▄█$f7███$f2██$f7███$f2█▄  $f4▄█$f7███$f4██$f7███$f4█▄  $f5▄█$f7███$f5██$f7███$f5█▄  $f6▄██$f7█▀█$f6██$f7█▀█$f6▄
- $f3███████▀      $f7▄▄  ▄▄  ▄▄   $f1█$f7▄▄█$f1██$f7▄▄█$f1███  $f2██$f7█ █$f2██$f7█ █$f2██  $f4██$f7█ █$f4██$f7█ █$f4██  $f5██$f7█ █$f5██$f7█ █$f5██  $f6███$f7█▄▄$f6██$f7█▄▄$f6█
- $f3███████▄      $f7▀▀  ▀▀  ▀▀   $f1████████████  $f2████████████  $f4████████████  $f5████████████  $f6████████████  
- $f3▀█████████▄▄               $f1██▀██▀▀██▀██  $f2██▀██▀▀██▀██  $f4██▀██▀▀██▀██  $f5██▀██▀▀██▀██  $f6██▀██▀▀██▀██
- $f3  ▀███████▀                $f1▀   ▀  ▀   ▀  $f2▀   ▀  ▀   ▀  $f4▀   ▀  ▀   ▀  $f5▀   ▀  ▀   ▀  $f6▀   ▀  ▀   ▀ 
-$bld
- $f3  ▄███████▄                $f1  ▄██████▄    $f2  ▄██████▄    $f4  ▄██████▄    $f5  ▄██████▄    $f6  ▄██████▄    
- $f3▄█████████▀▀               $f1▄$f7█▀█$f1██$f7█▀█$f1██▄  $f2▄█$f7█ █$f2██$f7█ █$f2█▄  $f4▄█$f7█ █$f4██$f7█ █$f4█▄  $f5▄█$f7█ █$f5██$f7█ █$f5█▄  $f6▄██$f7█▀█$f6██$f7█▀█$f6▄
- $f3███████▀      $f7▄▄  ▄▄  ▄▄   $f1█$f7▄▄█$f1██$f7▄▄█$f1███  $f2██$f7███$f2██$f7███$f2██  $f4██$f7███$f4██$f7███$f4██  $f5██$f7███$f5██$f7███$f5██  $f6███$f7█▄▄$f6██$f7█▄▄$f6█
- $f3███████▄      $f7▀▀  ▀▀  ▀▀   $f1████████████  $f2████████████  $f4████████████  $f5████████████  $f6████████████  
- $f3▀█████████▄▄               $f1██▀██▀▀██▀██  $f2██▀██▀▀██▀██  $f4██▀██▀▀██▀██  $f5██▀██▀▀██▀██  $f6██▀██▀▀██▀██
- $f3  ▀███████▀                $f1▀   ▀  ▀   ▀  $f2▀   ▀  ▀   ▀  $f4▀   ▀  ▀   ▀  $f5▀   ▀  ▀   ▀  $f6▀   ▀  ▀   ▀ 
+ ${hasef}  ▄███████▄                ${heejf}  ▄██████▄    ${hyunf}  ▄██████▄    ${yeojf}  ▄██████▄    ${vivif}  ▄██████▄    ${kimlf}  ▄██████▄    
+ ${hasef}▄█████████▀▀               ${heejf}▄${whitef}█▀█${heejf}██${whitef}█▀█${heejf}██▄  ${hyunf}▄█${whitef}███${hyunf}██${whitef}███${hyunf}█▄  ${yeojf}▄█${whitef}███${yeojf}██${whitef}███${yeojf}█▄  ${vivif}▄█${whitef}███${vivif}██${whitef}███${vivif}█▄  ${kimlf}▄██${whitef}█▀█${kimlf}██${whitef}█▀█${kimlf}▄
+ ${hasef}███████▀      ${whitef}▄▄  ▄▄  ▄▄   ${heejf}█${whitef}▄▄█${heejf}██${whitef}▄▄█${heejf}███  ${hyunf}██${whitef}█ █${hyunf}██${whitef}█ █${hyunf}██  ${yeojf}██${whitef}█ █${yeojf}██${whitef}█ █${yeojf}██  ${vivif}██${whitef}█ █${vivif}██${whitef}█ █${vivif}██  ${kimlf}███${whitef}█▄▄${kimlf}██${whitef}█▄▄${kimlf}█
+ ${hasef}███████▄      ${whitef}▀▀  ▀▀  ▀▀   ${heejf}████████████  ${hyunf}████████████  ${yeojf}████████████  ${vivif}████████████  ${kimlf}████████████  
+ ${hasef}▀█████████▄▄               ${heejf}██▀██▀▀██▀██  ${hyunf}██▀██▀▀██▀██  ${yeojf}██▀██▀▀██▀██  ${vivif}██▀██▀▀██▀██  ${kimlf}██▀██▀▀██▀██
+ ${hasef}  ▀███████▀                ${heejf}▀   ▀  ▀   ▀  ${hyunf}▀   ▀  ▀   ▀  ${yeojf}▀   ▀  ▀   ▀  ${vivif}▀   ▀  ▀   ▀  ${kimlf}▀   ▀  ▀   ▀ 
+
+ ${yvesf}  ▄███████▄                ${jinsf}  ▄██████▄    ${choef}  ▄██████▄    ${chuuf}  ▄██████▄    ${gowof}  ▄██████▄    ${olivf}  ▄██████▄    
+ ${yvesf}▄█████████▀▀               ${jinsf}▄${whitef}█▀█${jinsf}██${whitef}█▀█${jinsf}██▄  ${choef}▄█${whitef}███${choef}██${whitef}███${choef}█▄  ${chuuf}▄█${whitef}███${chuuf}██${whitef}███${chuuf}█▄  ${gowof}▄█${whitef}███${gowof}██${whitef}███${gowof}█▄  ${olivf}▄██${whitef}█▀█${olivf}██${whitef}█▀█${olivf}▄
+ ${yvesf}███████▀      ${whitef}▄▄  ▄▄  ▄▄   ${jinsf}█${whitef}▄▄█${jinsf}██${whitef}▄▄█${jinsf}███  ${choef}██${whitef}█ █${choef}██${whitef}█ █${choef}██  ${chuuf}██${whitef}█ █${chuuf}██${whitef}█ █${chuuf}██  ${gowof}██${whitef}█ █${gowof}██${whitef}█ █${gowof}██  ${olivf}███${whitef}█▄▄${olivf}██${whitef}█▄▄${olivf}█
+ ${yvesf}███████▄      ${whitef}▀▀  ▀▀  ▀▀   ${jinsf}████████████  ${choef}████████████  ${chuuf}████████████  ${gowof}████████████  ${olivf}████████████  
+ ${yvesf}▀█████████▄▄               ${jinsf}██▀██▀▀██▀██  ${choef}██▀██▀▀██▀██  ${chuuf}██▀██▀▀██▀██  ${gowof}██▀██▀▀██▀██  ${olivf}██▀██▀▀██▀██
+ ${yvesf}  ▀███████▀                ${jinsf}▀   ▀  ▀   ▀  ${choef}▀   ▀  ▀   ▀  ${chuuf}▀   ▀  ▀   ▀  ${gowof}▀   ▀  ▀   ▀  ${olivf}▀   ▀  ▀   ▀ 
 $rst
 
 EOF
