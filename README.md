@@ -9,6 +9,7 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
     - colorwheel (colorscheme not appropriate)
     - elfman (colorscheme not appropriate)
     - illumina (not worth it)
+    - pacman-large (colorscheme not appropriate)
 - adding a few loona-themed colorscripts
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
