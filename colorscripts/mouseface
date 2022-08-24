@@ -13,16 +13,11 @@ source $(dirname $0)/initialise.sh
 initializeANSI
 
 cat << EOF
-
-${boldon}${heejf}   ██     ██ ${reset} ${boldon}${hyunf}   ██     ██ ${reset} ${boldon}${hasef}   ██     ██ ${reset} ${boldon}${yeojf}   ██     ██ ${reset} ${boldon}${vivif}   ██     ██ ${reset} ${boldon}${kimlf}   ██     ██ ${reset} 
-${boldon}${heejf}  █${whitef} ■${reset}${boldon}${heejf}█   █${whitef}■${reset}${boldon}${heejf} █${reset} ${boldon}${hyunf}  █${whitef} ■${reset}${boldon}${hyunf}█   █${whitef}■${reset}${boldon}${hyunf} █${reset} ${boldon}${hasef}  █${whitef} ■${reset}${boldon}${hasef}█   █${whitef}■${reset}${boldon}${hasef} █${reset} ${boldon}${yeojf}  █${whitef} ■${reset}${boldon}${yeojf}█   █${whitef}■${reset}${boldon}${yeojf} █${reset} ${boldon}${vivif}  █${whitef} ■${reset}${boldon}${vivif}█   █${whitef}■${reset}${boldon}${vivif} █${reset} ${boldon}${kimlf}  █${whitef} ■${reset}${boldon}${kimlf}█   █${whitef}■${reset}${boldon}${kimlf} █${reset} 
-${heejf}   █ █   █ █ ${reset} ${hyunf}   █ █   █ █ ${reset} ${hasef}   █ █   █ █ ${reset} ${yeojf}   █ █   █ █ ${reset} ${vivif}   █ █   █ █ ${reset} ${kimlf}   █ █   █ █ ${reset}
-${heejf}     █ █ █   ${reset} ${hyunf}     █ █ █   ${reset} ${hasef}     █ █ █   ${reset} ${yeojf}     █ █ █   ${reset} ${vivif}     █ █ █   ${reset} ${kimlf}     █ █ █   ${reset}
-${heejf}      =■=    ${reset} ${hyunf}      =■=    ${reset} ${hasef}      =■=    ${reset} ${yeojf}      =■=    ${reset} ${vivif}      =■=    ${reset} ${kimlf}      =■=    ${reset}      
-${boldon}${jinsf}   ██     ██ ${reset} ${boldon}${choef}   ██     ██ ${reset} ${boldon}${yvesf}   ██     ██ ${reset} ${boldon}${chuuf}   ██     ██ ${reset} ${boldon}${gowof}   ██     ██ ${reset} ${boldon}${olivf}   ██     ██ ${reset} 
-${boldon}${jinsf}  █${whitef} ■${reset}${boldon}${jinsf}█   █${whitef}■${reset}${boldon}${jinsf} █${reset} ${boldon}${choef}  █${whitef} ■${reset}${boldon}${choef}█   █${whitef}■${reset}${boldon}${choef} █${reset} ${boldon}${yvesf}  █${whitef} ■${reset}${boldon}${yvesf}█   █${whitef}■${reset}${boldon}${yvesf} █${reset} ${boldon}${chuuf}  █${whitef} ■${reset}${boldon}${chuuf}█   █${whitef}■${reset}${boldon}${chuuf} █${reset} ${boldon}${gowof}  █${whitef} ■${reset}${boldon}${gowof}█   █${whitef}■${reset}${boldon}${gowof} █${reset} ${boldon}${olivf}  █${whitef} ■${reset}${boldon}${olivf}█   █${whitef}■${reset}${boldon}${olivf} █${reset} 
-${jinsf}   █ █   █ █ ${reset} ${choef}   █ █   █ █ ${reset} ${yvesf}   █ █   █ █ ${reset} ${chuuf}   █ █   █ █ ${reset} ${gowof}   █ █   █ █ ${reset} ${olivf}   █ █   █ █ ${reset}
-${jinsf}     █ █ █   ${reset} ${choef}     █ █ █   ${reset} ${yvesf}     █ █ █   ${reset} ${chuuf}     █ █ █   ${reset} ${gowof}     █ █ █   ${reset} ${olivf}     █ █ █   ${reset}
-${jinsf}      =■=    ${reset} ${choef}      =■=    ${reset} ${yvesf}      =■=    ${reset} ${chuuf}      =■=    ${reset} ${gowof}      =■=    ${reset} ${olivf}      =■=    ${reset}                                                
-
+ ${boldon}${heejf} █   █ ${reset} ${boldon}${hyunf}█   █ ${reset} ${boldon}${hasef}█   █ ${reset} ${boldon}${yeojf}█   █ ${reset} ${boldon}${vivif}█   █ ${reset} ${boldon}${kimlf}█   █ ${reset} 
+ ${boldon}${heejf}  ■ ■  ${reset} ${boldon}${hyunf} ■ ■  ${reset} ${boldon}${hasef} ■ ■  ${reset} ${boldon}${yeojf} ■ ■  ${reset} ${boldon}${vivif} ■ ■  ${reset} ${boldon}${kimlf} ■ ■  ${reset}
+ ${boldon}${heejf}  =■=  ${reset} ${boldon}${hyunf} =■=  ${reset} ${boldon}${hasef} =■=  ${reset} ${boldon}${yeojf} =■=  ${reset} ${boldon}${vivif} =■=  ${reset} ${boldon}${kimlf} =■=  ${reset}
+ 
+ ${jinsf} █=@=█ ${reset} ${choef}█=@=█ ${reset} ${yvesf}█=@=█ ${reset} ${chuuf}█=@=█ ${reset} ${gowof}█=@=█ ${reset} ${olivf}█=@=█ ${reset}
+ ${jinsf}  ■ ■  ${reset} ${choef} ■ ■  ${reset} ${yvesf} ■ ■  ${reset} ${chuuf} ■ ■  ${reset} ${gowof} ■ ■  ${reset} ${olivf} ■ ■  ${reset}
+ ${jinsf}  =■=  ${reset} ${choef} =■=  ${reset} ${yvesf} =■=  ${reset} ${chuuf} =■=  ${reset} ${gowof} =■=  ${reset} ${olivf} =■=  ${reset} 
 EOF
