@@ -12,6 +12,8 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
     - pacman-large (colorscheme not appropriate)
     - pacman-large-multiple (colorscheme not appropriate)
     - panes (colorscheme not appropriate)
+    - popos (colorscheme not appropriate)
+    - print256 (colorscheme not appropriate)
 - adding a few loona-themed colorscripts
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
