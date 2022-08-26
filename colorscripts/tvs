@@ -1,28 +1,23 @@
-#!/bin/bash
-
-f=3 b=4
-for j in f b; do
-  for i in {0..7}; do
-    printf -v $j$i %b "\e[${!j}${i}m"
-  done
-done
-bld=$'\e[1m'
-rst=$'\e[0m'
-inv=$'\e[7m'
-w=$'\e[37m'
+#!/usr/bin/env bash
+ 
+my_dir="$(dirname "$0")"
+source $(dirname $0)/initialise.sh
+initializeANSI
+ 
 cat << EOF
 
-$f1 ▀▄   ▄▀  $f2 ▀▄   ▄▀  $f3 ▀▄   ▄▀  $f4 ▀▄   ▄▀  $f5 ▀▄   ▄▀  $f6 ▀▄   ▄▀  
-$f1 ▄▄█▄█▄▄  $f2 ▄▄█▄█▄▄  $f3 ▄▄█▄█▄▄  $f4 ▄▄█▄█▄▄  $f5 ▄▄█▄█▄▄  $f6 ▄▄█▄█▄▄  
-$f1█$w██████$f1██ $f2█$w██████$f2██ $f3█$w██████$f3██ $f4█$w██████$f4██ $f5█$w██████$f5██ $f6█$w██████$f6██ 
-$f1█$w██████$f1██ $f2█$w██████$f2██ $f3█$w██████$f3██ $f4█$w██████$f4██ $f5█$w██████$f5██ $f6█$w██████$f6██ 
-$f1█$w██████$f1██ $f2█$w██████$f2██ $f3█$w██████$f3██ $f4█$w██████$f4██ $f5█$w██████$f5██ $f6█$w██████$f6██ 
-$f1 ▀▀▀▀▀▀▀  $f2 ▀▀▀▀▀▀▀  $f3 ▀▀▀▀▀▀▀  $f4 ▀▀▀▀▀▀▀  $f5 ▀▀▀▀▀▀▀  $f6 ▀▀▀▀▀▀▀  $bld
+${heejf} ▀▄   ▄▀  ${hyunf} ▀▄   ▄▀  ${hasef} ▀▄   ▄▀  ${yeojf} ▀▄   ▄▀  ${vivif} ▀▄   ▄▀  ${kimlf} ▀▄   ▄▀  
+${heejf} ▄▄█▄█▄▄  ${hyunf} ▄▄█▄█▄▄  ${hasef} ▄▄█▄█▄▄  ${yeojf} ▄▄█▄█▄▄  ${vivif} ▄▄█▄█▄▄  ${kimlf} ▄▄█▄█▄▄  
+${heejf}█$w██████${heejf}██ ${hyunf}█$w██████${hyunf}██ ${hasef}█$w██████${hasef}██ ${yeojf}█$w██████${yeojf}██ ${vivif}█$w██████${vivif}██ ${kimlf}█$w██████${kimlf}██ 
+${heejf}█$w██████${heejf}██ ${hyunf}█$w██████${hyunf}██ ${hasef}█$w██████${hasef}██ ${yeojf}█$w██████${yeojf}██ ${vivif}█$w██████${vivif}██ ${kimlf}█$w██████${kimlf}██ 
+${heejf}█$w██████${heejf}██ ${hyunf}█$w██████${hyunf}██ ${hasef}█$w██████${hasef}██ ${yeojf}█$w██████${yeojf}██ ${vivif}█$w██████${vivif}██ ${kimlf}█$w██████${kimlf}██ 
+${heejf} ▀▀▀▀▀▀▀  ${hyunf} ▀▀▀▀▀▀▀  ${hasef} ▀▀▀▀▀▀▀  ${yeojf} ▀▀▀▀▀▀▀  ${vivif} ▀▀▀▀▀▀▀  ${kimlf} ▀▀▀▀▀▀▀  $bld
 
-$f1 ▀▄   ▄▀  $f2 ▀▄   ▄▀  $f3 ▀▄   ▄▀  $f4 ▀▄   ▄▀  $f5 ▀▄   ▄▀  $f6 ▀▄   ▄▀  
-$f1 ▄▄█▄█▄▄  $f2 ▄▄█▄█▄▄  $f3 ▄▄█▄█▄▄  $f4 ▄▄█▄█▄▄  $f5 ▄▄█▄█▄▄  $f6 ▄▄█▄█▄▄  
-$f1█$w██████$f1██ $f2█$w██████$f2██ $f3█$w██████$f3██ $f4█$w██████$f4██ $f5█$w██████$f5██ $f6█$w██████$f6██ 
-$f1█$w██████$f1██ $f2█$w██████$f2██ $f3█$w██████$f3██ $f4█$w██████$f4██ $f5█$w██████$f5██ $f6█$w██████$f6██ 
-$f1█$w██████$f1██ $f2█$w██████$f2██ $f3█$w██████$f3██ $f4█$w██████$f4██ $f5█$w██████$f5██ $f6█$w██████$f6██ 
-$f1 ▀▀▀▀▀▀▀  $f2 ▀▀▀▀▀▀▀  $f3 ▀▀▀▀▀▀▀  $f4 ▀▀▀▀▀▀▀  $f5 ▀▀▀▀▀▀▀  $f6 ▀▀▀▀▀▀▀  $rst
+${jinsf} ▀▄   ▄▀  ${choef} ▀▄   ▄▀  ${yvesf} ▀▄   ▄▀  ${chuuf} ▀▄   ▄▀  ${gowof} ▀▄   ▄▀  ${olivf} ▀▄   ▄▀  
+${jinsf} ▄▄█▄█▄▄  ${choef} ▄▄█▄█▄▄  ${yvesf} ▄▄█▄█▄▄  ${chuuf} ▄▄█▄█▄▄  ${gowof} ▄▄█▄█▄▄  ${olivf} ▄▄█▄█▄▄  
+${jinsf}█$w██████${jinsf}██ ${choef}█$w██████${choef}██ ${yvesf}█$w██████${yvesf}██ ${chuuf}█$w██████${chuuf}██ ${gowof}█$w██████${gowof}██ ${olivf}█$w██████${olivf}██ 
+${jinsf}█$w██████${jinsf}██ ${choef}█$w██████${choef}██ ${yvesf}█$w██████${yvesf}██ ${chuuf}█$w██████${chuuf}██ ${gowof}█$w██████${gowof}██ ${olivf}█$w██████${olivf}██ 
+${jinsf}█$w██████${jinsf}██ ${choef}█$w██████${choef}██ ${yvesf}█$w██████${yvesf}██ ${chuuf}█$w██████${chuuf}██ ${gowof}█$w██████${gowof}██ ${olivf}█$w██████${olivf}██ 
+${jinsf} ▀▀▀▀▀▀▀  ${choef} ▀▀▀▀▀▀▀  ${yvesf} ▀▀▀▀▀▀▀  ${chuuf} ▀▀▀▀▀▀▀  ${gowof} ▀▀▀▀▀▀▀  ${olivf} ▀▀▀▀▀▀▀  $rst
+
 EOF
