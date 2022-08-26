@@ -35,15 +35,14 @@ initializeANSI
 
 cat << EOF
 
- ${redf} ▄█▀ █ █ ▀█▄   ${greenf} ▄█▀ █ █ ▀█▄   ${yellowf} ▄█▀ █ █ ▀█▄   ${bluef} ▄█▀ █ █ ▀█▄   ${purplef} ▄█▀ █ █ ▀█▄   ${cyanf} ▄█▀ █ █ ▀█▄ 
- ${redf}███  ███  ███  ${greenf}███  ███  ███  ${yellowf}███  ███  ███  ${bluef}███  ███  ███  ${purplef}███  ███  ███  ${cyanf}███  ███  ███
- ${redf}█████████████  ${greenf}█████████████  ${yellowf}█████████████  ${bluef}█████████████  ${purplef}█████████████  ${cyanf}█████████████
- ${redf} ▀██▄   ▄██▀   ${greenf} ▀██▄   ▄██▀   ${yellowf} ▀██▄   ▄██▀   ${bluef} ▀██▄   ▄██▀   ${purplef} ▀██▄   ▄██▀   ${cyanf} ▀██▄   ▄██▀ 
+ ${heejf} ▄█▀ █ █ ▀█▄   ${hyunf} ▄█▀ █ █ ▀█▄   ${hasef} ▄█▀ █ █ ▀█▄   ${yeojf} ▄█▀ █ █ ▀█▄   ${vivif} ▄█▀ █ █ ▀█▄   ${kimlf} ▄█▀ █ █ ▀█▄ 
+ ${heejf}███  ███  ███  ${hyunf}███  ███  ███  ${hasef}███  ███  ███  ${yeojf}███  ███  ███  ${vivif}███  ███  ███  ${kimlf}███  ███  ███
+ ${heejf}█████████████  ${hyunf}█████████████  ${hasef}█████████████  ${yeojf}█████████████  ${vivif}█████████████  ${kimlf}█████████████
+ ${heejf} ▀██▄   ▄██▀   ${hyunf} ▀██▄   ▄██▀   ${hasef} ▀██▄   ▄██▀   ${yeojf} ▀██▄   ▄██▀   ${vivif} ▀██▄   ▄██▀   ${kimlf} ▀██▄   ▄██▀ 
  
-${boldon} 
- ${redf} ▄█▀ █ █ ▀█▄   ${greenf} ▄█▀ █ █ ▀█▄   ${yellowf} ▄█▀ █ █ ▀█▄   ${bluef} ▄█▀ █ █ ▀█▄   ${purplef} ▄█▀ █ █ ▀█▄   ${cyanf} ▄█▀ █ █ ▀█▄ 
- ${redf}███  ███  ███  ${greenf}███  ███  ███  ${yellowf}███  ███  ███  ${bluef}███  ███  ███  ${purplef}███  ███  ███  ${cyanf}███  ███  ███
- ${redf}█████████████  ${greenf}█████████████  ${yellowf}█████████████  ${bluef}█████████████  ${purplef}█████████████  ${cyanf}█████████████
- ${redf} ▀██▄   ▄██▀   ${greenf} ▀██▄   ▄██▀   ${yellowf} ▀██▄   ▄██▀   ${bluef} ▀██▄   ▄██▀   ${purplef} ▀██▄   ▄██▀   ${cyanf} ▀██▄   ▄██▀ 
-${reset} 
+ ${jinsf} ▄█▀ █ █ ▀█▄   ${choef} ▄█▀ █ █ ▀█▄   ${yvesf} ▄█▀ █ █ ▀█▄   ${chuuf} ▄█▀ █ █ ▀█▄   ${gowof} ▄█▀ █ █ ▀█▄   ${olivf} ▄█▀ █ █ ▀█▄ 
+ ${jinsf}███  ███  ███  ${choef}███  ███  ███  ${yvesf}███  ███  ███  ${chuuf}███  ███  ███  ${gowof}███  ███  ███  ${olivf}███  ███  ███
+ ${jinsf}█████████████  ${choef}█████████████  ${yvesf}█████████████  ${chuuf}█████████████  ${gowof}█████████████  ${olivf}█████████████
+ ${jinsf} ▀██▄   ▄██▀   ${choef} ▀██▄   ▄██▀   ${yvesf} ▀██▄   ▄██▀   ${chuuf} ▀██▄   ▄██▀   ${gowof} ▀██▄   ▄██▀   ${olivf} ▀██▄   ▄██▀ 
+
 EOF
