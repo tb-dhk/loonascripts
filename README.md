@@ -20,4 +20,5 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
 - adding a few loona-themed colorscripts
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
-    - membershapes (pending)
+    - membershapes
+    - subunitnames (pending)
