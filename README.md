@@ -13,10 +13,11 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
     - popos 
     - print256 
     - spectrum 
-    - thebat (colorscheme not appropriate, **current thebat file was originally thebat2**)
+    - thebat (**current thebat file was originally thebat2**)
 - removed some files due to other reasons
     - colortest-slim
     - illumina
+    - tiefighter1 (**current tiefighter1 file was originally tiefighter1-no-invo**)
 - adding a few loona-themed colorscripts
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
