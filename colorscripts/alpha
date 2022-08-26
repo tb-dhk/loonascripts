@@ -1,15 +1,5 @@
 #!/bin/bash
 
-# ANSI Color -- use these variables to easily have different color
-#    and format output. Make sure to output the reset sequence after 
-#    colors (f = foreground, b = background), and use the 'off'
-#    feature for anything you turn on.
-# Author: Ivo
-# Source: http://crunchbang.org/forums/viewtopic.php?pid=134749#p134749
-
-# note in this first use that switching colors doesn't require a reset
-# first - the new color overrides the old one.
-
 my_dir="$(dirname "$0")"
 source $(dirname $0)/initialise.sh
 initializeANSI
