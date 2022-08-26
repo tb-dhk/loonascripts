@@ -14,7 +14,8 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
     - panes (colorscheme not appropriate)
     - popos (colorscheme not appropriate)
     - print256 (colorscheme not appropriate)
-    - spectrum
+    - spectrum (colorscheme not appropriate)
+    - thebat (colorscheme not appropriate)
 - adding a few loona-themed colorscripts
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
