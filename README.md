@@ -13,7 +13,7 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
     - popos 
     - print256 
     - spectrum 
-    - thebat (colorscheme not appropriate, **thebat2 was changed to thebat instead**)
+    - thebat (colorscheme not appropriate, **current thebat file was originally thebat2**)
 - removed some files due to other reasons
     - colortest-slim
     - illumina
