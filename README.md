@@ -18,8 +18,11 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
     - colortest-slim
     - illumina
     - tiefighter1 (**current tiefighter1 file was originally tiefighter1-no-invo**)
-- adding a few loona-themed colorscripts
+    
+- added a few loona-themed colorscripts
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
     - membershapes
     - subunitnames (pending)
+- added some of my own designs
+    - ganadara (credits to [g-e-o-m-e-t-r-i-c](github.com/g-e-o-m-e-t-r-i-c))
