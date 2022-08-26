@@ -1,38 +1,47 @@
 #!/usr/bin/env bash
-
-# ANSI color scheme script featuring Space Invaders
-
-# Original: http://crunchbanglinux.org/forums/post/126921/#p126921
-# Modified by lolilolicon
-
-f=3 b=4
-for j in f b; do
-  for i in {0..7}; do
-    printf -v $j$i %b "\e[${!j}${i}m"
-  done
-done
-bld=$'\e[1m'
-rst=$'\e[0m'
-
+ 
+my_dir="$(dirname "$0")"
+source $(dirname $0)/initialise.sh
+initializeANSI
+ 
 cat << EOF
 
- $f1  ▀▄   ▄▀     $f2 ▄▄▄████▄▄▄    $f3  ▄██▄     $f4  ▀▄   ▄▀     $f5 ▄▄▄████▄▄▄    $f6  ▄██▄  $rst
- $f1 ▄█▀███▀█▄    $f2███▀▀██▀▀███   $f3▄█▀██▀█▄   $f4 ▄█▀███▀█▄    $f5███▀▀██▀▀███   $f6▄█▀██▀█▄$rst
- $f1█▀███████▀█   $f2▀▀███▀▀███▀▀   $f3▀█▀██▀█▀   $f4█▀███████▀█   $f5▀▀███▀▀███▀▀   $f6▀█▀██▀█▀$rst
- $f1▀ ▀▄▄ ▄▄▀ ▀   $f2 ▀█▄ ▀▀ ▄█▀    $f3▀▄    ▄▀   $f4▀ ▀▄▄ ▄▄▀ ▀   $f5 ▀█▄ ▀▀ ▄█▀    $f6▀▄    ▄▀$rst
+${heejf}  ▀▄   ▄▀     ${hyunf} ▄▄▄████▄▄▄    ${hasef}  ▄██▄     ${yeojf}  ▀▄   ▄▀     ${vivif} ▄▄▄████▄▄▄    ${kimlf}  ▄██▄  $rst
+ ${heejf} ▄█▀███▀█▄    ${hyunf}███▀▀██▀▀███   ${hasef}▄█▀██▀█▄   ${yeojf} ▄█▀███▀█▄    ${vivif}███▀▀██▀▀███   ${kimlf}▄█▀██▀█▄$rst
+ ${heejf}█▀███████▀█   ${hyunf}▀▀███▀▀███▀▀   ${hasef}▀█▀██▀█▀   ${yeojf}█▀███████▀█   ${vivif}▀▀███▀▀███▀▀   ${kimlf}▀█▀██▀█▀$rst
+ ${heejf}▀ ▀▄▄ ▄▄▀ ▀   ${hyunf} ▀█▄ ▀▀ ▄█▀    ${hasef}▀▄    ▄▀   ${yeojf}▀ ▀▄▄ ▄▄▀ ▀   ${vivif} ▀█▄ ▀▀ ▄█▀    ${kimlf}▀▄    ▄▀$rst
 
- $bld$f1▄ ▀▄   ▄▀ ▄   $f2 ▄▄▄████▄▄▄    $f3  ▄██▄     $f4▄ ▀▄   ▄▀ ▄   $f5 ▄▄▄████▄▄▄    $f6  ▄██▄  $rst
- $bld$f1█▄█▀███▀█▄█   $f2███▀▀██▀▀███   $f3▄█▀██▀█▄   $f4█▄█▀███▀█▄█   $f5███▀▀██▀▀███   $f6▄█▀██▀█▄$rst
- $bld$f1▀█████████▀   $f2▀▀▀██▀▀██▀▀▀   $f3▀▀█▀▀█▀▀   $f4▀█████████▀   $f5▀▀▀██▀▀██▀▀▀   $f6▀▀█▀▀█▀▀$rst
- $bld$f1 ▄▀     ▀▄    $f2▄▄▀▀ ▀▀ ▀▀▄▄   $f3▄▀▄▀▀▄▀▄   $f4 ▄▀     ▀▄    $f5▄▄▀▀ ▀▀ ▀▀▄▄   $f6▄▀▄▀▀▄▀▄$rst
+ $bld${heejf}▄ ▀▄   ▄▀ ▄   ${hyunf} ▄▄▄████▄▄▄    ${hasef}  ▄██▄     ${yeojf}▄ ▀▄   ▄▀ ▄   ${vivif} ▄▄▄████▄▄▄    ${kimlf}  ▄██▄  $rst
+ $bld${heejf}█▄█▀███▀█▄█   ${hyunf}███▀▀██▀▀███   ${hasef}▄█▀██▀█▄   ${yeojf}█▄█▀███▀█▄█   ${vivif}███▀▀██▀▀███   ${kimlf}▄█▀██▀█▄$rst
+ $bld${heejf}▀█████████▀   ${hyunf}▀▀▀██▀▀██▀▀▀   ${hasef}▀▀█▀▀█▀▀   ${yeojf}▀█████████▀   ${vivif}▀▀▀██▀▀██▀▀▀   ${kimlf}▀▀█▀▀█▀▀$rst
+ $bld${heejf} ▄▀     ▀▄    ${hyunf}▄▄▀▀ ▀▀ ▀▀▄▄   ${hasef}▄▀▄▀▀▄▀▄   ${yeojf} ▄▀     ▀▄    ${vivif}▄▄▀▀ ▀▀ ▀▀▄▄   ${kimlf}▄▀▄▀▀▄▀▄$rst
 
 
-                                     $f7▌$rst
+                                     ${whitef}▌$rst
 
-                                   $f7▌$rst
+                                   ${whitef}▌$rst
 
-                              $f7    ▄█▄    $rst
-                              $f7▄█████████▄$rst
-                              $f7▀▀▀▀▀▀▀▀▀▀▀$rst
+                              ${whitef}    ▄█▄    $rst
+                              ${whitef}▄█████████▄$rst
+                              ${whitef}▀▀▀▀▀▀▀▀▀▀▀$rst
+
+ ${jinsf}  ▀▄   ▄▀     ${choef} ▄▄▄████▄▄▄    ${yvesf}  ▄██▄     ${chuuf}  ▀▄   ▄▀     ${gowof} ▄▄▄████▄▄▄    ${olivf}  ▄██▄  $rst
+ ${jinsf} ▄█▀███▀█▄    ${choef}███▀▀██▀▀███   ${yvesf}▄█▀██▀█▄   ${chuuf} ▄█▀███▀█▄    ${gowof}███▀▀██▀▀███   ${olivf}▄█▀██▀█▄$rst
+ ${jinsf}█▀███████▀█   ${choef}▀▀███▀▀███▀▀   ${yvesf}▀█▀██▀█▀   ${chuuf}█▀███████▀█   ${gowof}▀▀███▀▀███▀▀   ${olivf}▀█▀██▀█▀$rst
+ ${jinsf}▀ ▀▄▄ ▄▄▀ ▀   ${choef} ▀█▄ ▀▀ ▄█▀    ${yvesf}▀▄    ▄▀   ${chuuf}▀ ▀▄▄ ▄▄▀ ▀   ${gowof} ▀█▄ ▀▀ ▄█▀    ${olivf}▀▄    ▄▀$rst
+
+ $bld${jinsf}▄ ▀▄   ▄▀ ▄   ${choef} ▄▄▄████▄▄▄    ${yvesf}  ▄██▄     ${chuuf}▄ ▀▄   ▄▀ ▄   ${gowof} ▄▄▄████▄▄▄    ${olivf}  ▄██▄  $rst
+ $bld${jinsf}█▄█▀███▀█▄█   ${choef}███▀▀██▀▀███   ${yvesf}▄█▀██▀█▄   ${chuuf}█▄█▀███▀█▄█   ${gowof}███▀▀██▀▀███   ${olivf}▄█▀██▀█▄$rst
+ $bld${jinsf}▀█████████▀   ${choef}▀▀▀██▀▀██▀▀▀   ${yvesf}▀▀█▀▀█▀▀   ${chuuf}▀█████████▀   ${gowof}▀▀▀██▀▀██▀▀▀   ${olivf}▀▀█▀▀█▀▀$rst
+ $bld${jinsf} ▄▀     ▀▄    ${choef}▄▄▀▀ ▀▀ ▀▀▄▄   ${yvesf}▄▀▄▀▀▄▀▄   ${chuuf} ▄▀     ▀▄    ${gowof}▄▄▀▀ ▀▀ ▀▀▄▄   ${olivf}▄▀▄▀▀▄▀▄$rst
+
+
+                                     ${whitef}▌$rst
+
+                                   ${whitef}▌$rst
+
+                              ${whitef}    ▄█▄    $rst
+                              ${whitef}▄█████████▄$rst
+                              ${whitef}▀▀▀▀▀▀▀▀▀▀▀$rst
 
 EOF
