@@ -5,7 +5,8 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
 - all colors changed to loona colors (row 2 of the [loona member color database](https://docs.google.com/spreadsheets/d/101dgHkOonpbhIw5LFUObFS-SRo2d85WkCex4NtjW6Lg/edit?usp=sharing) by [u/paper-mantis](https://www.reddit.com/user/paper-mantis/) on reddit)
 - removed some files due to inappropriate colorscheme
     - colorbars 
-    - colorwheel 
+    - colorwheel
+    - debian
     - elfman 
     - pacman-large 
     - pacman-large-multiple 
