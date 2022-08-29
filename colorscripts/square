@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
- 
+# Author: muzieca
+# Source: http://crunchbang.org/forums/viewtopic.php?pid=127509#p127509
+
 my_dir="$(dirname "$0")"
 source $(dirname $0)/initialise.sh
 initializeANSI
