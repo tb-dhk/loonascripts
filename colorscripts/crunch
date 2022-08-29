@@ -11,11 +11,6 @@ my_dir="$(dirname "$0")"
 source $(dirname $0)/initialise.sh
 initializeANSI
 
-# note in this first use that switching colors doesn't require a reset
-# first - the new color overrides the old one.
- 
-initializeANSI
- 
 cat << EOF
  
  ${heejf}  ██  ██   ${hyunf}   ██  ██   ${hasef}   ██  ██   ${yeojf}   ██  ██   ${vivif}   ██  ██   ${kimlf}   ██  ██   
