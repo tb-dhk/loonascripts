@@ -4,7 +4,7 @@ clean:
 install: clean
 	mkdir -p /opt/loonascripts/colorscripts
 	cp -rf colorscripts/* /opt/loonascripts/colorscripts
-	cp colorscript.sh /usr/local/bin/colorscript
+	cp loonascript.sh /usr/local/bin/colorscript
 
 uninstall:
 	rm -rf /opt/loonascripts
