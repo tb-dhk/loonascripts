@@ -30,7 +30,6 @@ _note: similar instructions can be found on [the original repo on GitLab.](https
     - colortest-slim
     - illumina
     - tiefighter1 (**current tiefighter1 file was originally tiefighter1-no-invo**)
-    
 - added a few LOOΠΔ-themed colorscripts
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
