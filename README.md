@@ -13,14 +13,14 @@ _note: similar instructions can be found on [the original repo on GitLab](https:
     sudo make uninstall
 
 ## usage:
-    colorscript --help
-    Description: A collection of terminal color scripts.
+    loonascript --help
+    description: a collection of terminal color scripts.
 
-    Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]
-    -h, --help, help        	Print this help.
-    -l, --list, list        	List all installed color scripts.
-    -r, --random, random    	Run a random color script.
-    -e, --exec, exec        	Run a specified color script by SCRIPT NAME or INDEX.
+    usage: loonascript [option] [script name/index]
+    -h, --help, help        	print this help.
+    -l, --list, list        	list all installed color scripts.
+    -r, --random, random    	run a random color script.
+    -e, --exec, exec        	run a specified color script by script name or index.
 
 ## changes made:
 - all colors changed to LOOΠΔ colors (row 2 of the [LOOΠΔ member color database](https://docs.google.com/spreadsheets/d/101dgHkOonpbhIw5LFUObFS-SRo2d85WkCex4NtjW6Lg/edit?usp=sharing) by [u/paper-mantis](https://www.reddit.com/user/paper-mantis/) on reddit)
