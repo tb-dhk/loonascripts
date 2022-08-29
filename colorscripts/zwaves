@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# ANSI color scheme script by pfh
+# Source: http://crunchbang.org/forums/viewtopic.php?pid=141044#p141044
+# Initializing mod by lolilolicon from Archlinux
  
 my_dir="$(dirname "$0")"
 source $(dirname $0)/initialise.sh
