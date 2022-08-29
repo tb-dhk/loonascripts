@@ -12,6 +12,16 @@ _note: similar instructions can be found on [the original repo on GitLab](https:
     # to uninstall:
     sudo make uninstall
 
+## usage:
+    colorscript --help
+    Description: A collection of terminal color scripts.
+
+    Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]
+    -h, --help, help        	Print this help.
+    -l, --list, list        	List all installed color scripts.
+    -r, --random, random    	Run a random color script.
+    -e, --exec, exec        	Run a specified color script by SCRIPT NAME or INDEX.
+
 ## changes made:
 - all colors changed to LOOΠΔ colors (row 2 of the [LOOΠΔ member color database](https://docs.google.com/spreadsheets/d/101dgHkOonpbhIw5LFUObFS-SRo2d85WkCex4NtjW6Lg/edit?usp=sharing) by [u/paper-mantis](https://www.reddit.com/user/paper-mantis/) on reddit)
 - removed some files due to inappropriate colorscheme
