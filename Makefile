@@ -1,11 +1,11 @@
 clean: 
-	rm -rf /opt/shell-color-scripts
+	rm -rf /opt/loonascripts
 
 install: clean
-	mkdir -p /opt/shell-color-scripts/colorscripts
-	cp -rf colorscripts/* /opt/shell-color-scripts/colorscripts
+	mkdir -p /opt/loonascripts/colorscripts
+	cp -rf colorscripts/* /opt/loonascripts/colorscripts
 	cp colorscript.sh /usr/local/bin/colorscript
 
 uninstall:
-	rm -rf /opt/shell-color-scripts
+	rm -rf /opt/loonascripts
 	rm -f /usr/local/bin/colorscript
