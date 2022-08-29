@@ -7,14 +7,14 @@ fmt_help="  %-20s\t%-54s\n"
 list_colorscripts="$(/usr/bin/ls "${DIR_COLORSCRIPTS}" | cut -d ' ' -f 1 | nl)"
 length_colorscripts="$(/usr/bin/ls "${DIR_COLORSCRIPTS}" | wc -l)"
 function _help() {
-    echo "Description: A collection of terminal color scripts."
+    echo "description: a collection of terminal color scripts."
     echo ""
-    echo "Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]"
+    echo "usage: loonascript [option] [script name/index]"
     printf "${fmt_help}" \
-        "-h, --help, help" "Print this help." \
-        "-l, --list, list" "List all installed color scripts." \
-        "-r, --random, random" "Run a random color script." \
-        "-e, --exec, exec" "Run a specified color script by SCRIPT NAME or INDEX."
+        "-h, --help, help" "print this help." \
+        "-l, --list, list" "list all installed color scripts." \
+        "-r, --random, random" "run a random color script." \
+        "-e, --exec, exec" "run a specified color script by script name or index."
 }
 
 function _list() {
