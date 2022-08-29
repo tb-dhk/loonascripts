@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-
-# Author: GekkoP
-# Source: http://linuxbbq.org/bbs/viewtopic.php?f=4&t=1656#p33189
+# Author: pfh
+# Source: http://crunchbang.org/forums/viewtopic.php?pid=127064#p127064
  
 my_dir="$(dirname "$0")"
 source $(dirname $0)/initialise.sh
