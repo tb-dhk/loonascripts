@@ -23,6 +23,6 @@ this is a loona-themed adaptation of the original [shell-color-scripts](https://
     - loonaen (LOOΠΔ/)
     - loonakr (ㅇㄷㅇㅅㄴ/)
     - membershapes
-    - subunitnames (pending)
+    - subunitnames
 - added some of my own designs
     - ganadara (credits to [g-e-o-m-e-t-r-i-c](github.com/g-e-o-m-e-t-r-i-c))
