@@ -2,7 +2,15 @@
 this is a LOOΠΔ-themed adaptation of the original [shell-color-scripts](https://github.com/charitarthchugh/shell-color-scripts).
 
 ## installation instructions:
-see [the original repo on GitLab.](https://gitlab.com/dwt1/shell-color-scripts/-/blob/master/README.md).
+_note: similar instructions can be found on [the original repo on GitLab.](https://gitlab.com/dwt1/shell-color-scripts/-/blob/master/README.md). these instructions are almost identical, the only difference being the url and folder names used._
+
+    # to install:
+    git clone https://github.com/shuu-wasseo/loonascripts
+    cd loonascripts
+    sudo make install
+
+    # to uninstall:
+    sudo make uninstall
 
 ## changes made:
 - all colors changed to LOOΠΔ colors (row 2 of the [LOOΠΔ member color database](https://docs.google.com/spreadsheets/d/101dgHkOonpbhIw5LFUObFS-SRo2d85WkCex4NtjW6Lg/edit?usp=sharing) by [u/paper-mantis](https://www.reddit.com/user/paper-mantis/) on reddit)
