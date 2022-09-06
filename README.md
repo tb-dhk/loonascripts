@@ -1,3 +1,7 @@
+![](https://progress-bar.dev/90/?title=completed)
+
+note: this repo is still untested and may not work as expected / may not work at all.
+
 # loonascripts
 this is a LOOΠΔ-themed adaptation of the original [shell-color-scripts](https://github.com/charitarthchugh/shell-color-scripts).
 
