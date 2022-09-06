@@ -3,7 +3,7 @@
 note: this repo is still untested and may not work as expected / may not work at all.
 
 # loonascripts
-this is a LOOΠΔ-themed adaptation of the original [shell-color-scripts](https://github.com/charitarthchugh/shell-color-scripts).
+this is a LOOΠΔ-themed adaptation of the original shell-color-scripts, made by [Derek Taylor](https://gitlab.com/dwt1). (see original [GitLab](https://gitlab.com/dwt1/shell-color-scripts), or the [GitHub version](https://github.com/charitarthchugh/shell-color-scripts).)
 
 ## installation instructions:
 _note: similar instructions can be found on [the original repo on GitLab](https://gitlab.com/dwt1/shell-color-scripts/-/blob/master/README.md). these instructions are almost identical, the only difference being the url and folder names used. these instructions are for linux terminals other than arch/nix and may not work if used on distros that these instructions are not catered to._
