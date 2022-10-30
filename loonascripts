@@ -27,13 +27,13 @@ function _help() {
     echo ""
     echo "Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]"
     printf "${fmt_help}" \
-        "-h, --help, help" "Print this help." \
-        "-l, --list, list" "List all installed color scripts." \
-        "-r, --random, random" "Run a random color script." \
-        "-e, --exec, exec" "Run a specified color script by SCRIPT NAME or INDEX."\
-        "-b, --blacklist, blacklist" "Blacklist a color script by SCRIPT NAME or INDEX." \
+        "-h, --help, help" "                Print this help." \
+        "-l, --list, list" "                List all installed color scripts." \
+        "-r, --random, random" "                Run a random color script." \
+        "-e, --exec, exec" "                Run a specified color script by SCRIPT NAME or INDEX."\
+        "-b, --blacklist, blacklist" "        Blacklist a color script by SCRIPT NAME or INDEX." \
         "-u, --unblacklist, unblacklist" "Unblacklist a color script by SCRIPT NAME or INDEX." \
-        "-a, --all, all" "List the outputs of all colorscripts with their SCRIPT NAME"
+        "-a, --all, all" "                List the outputs of all colorscripts with their SCRIPT NAME"
 }
 
 function _list() {

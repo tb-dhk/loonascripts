@@ -8,4 +8,4 @@ install: clean
 
 uninstall:
 	rm -rf /opt/loonascripts
-	rm -f /usr/local/bin/colorscripts
+	rm -f /usr/local/bin/loonascripts
