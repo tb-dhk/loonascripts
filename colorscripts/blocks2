@@ -1,11 +1,11 @@
-#!/bin/sh
+#!/usr/bin/env bash
 # Author: ed209
 # Source: http://crunchbang.org/forums/viewtopic.php?pid=295676#p295676
 
 my_dir="$(dirname "$0")"
 source $(dirname $0)/initialise.sh
 initializeANSI
-
+ 
 cat << EOF
 
 ${heejf}■■■■${reset}${heejf}■■${reset}   ${hyunf}■■■■${reset}${hyunf}■■${reset}   ${hasef}■■■■${reset}${hasef}■■${reset}   ${yeojf}■■■■${reset}${vivif}■■${reset}   ${vivif}■■■■${reset}${yeojf}■■${reset}   ${kimlf}■■■■${reset}${kimlf}■■${reset} 

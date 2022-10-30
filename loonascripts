@@ -94,9 +94,11 @@ function _run_colorscript() {
 function _run_all() {
     for s in $DIR_COLORSCRIPTS/*
     do
-        echo "$(echo $s | awk -F '/' '{print $NF}'):"
-        echo "$($s)"
-        echo
+        if [[ $s != "/opt/loonascripts/colorscripts/blacklisted" ]]; then
+            echo "$(echo $s | awk -F '/' '{print $NF}'):"
+            echo "$($s)"
+            echo
+        fi
     done
 }
 
