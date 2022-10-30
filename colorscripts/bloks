@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 my_dir="$(dirname "$0")"
 source $(dirname $0)/initialise.sh
@@ -7,7 +7,7 @@ initializeANSI
 
 cat << EOF
 ${heejf}11111111${reset} ${hyunf}22222222${reset} ${hasef}33333333${reset} ${yeojf}44444444${reset} ${vivif}55555555${reset} ${kimlf}66666666${reset} ${jinsf}77777777${reset} ${choef}88888888${reset} ${yvesf}99999999${reset} ${chuuf}00000000${reset} ${gowof}AAAAAAAA${reset} ${olivf}BBBBBBBB${reset}
-${heejf}████████${reset} ${hyunf}████████${reset} ${hasef}████████${reset} ${yeojf}████████${reset} ${vivif}████████${reset} ${kimlf}████████${reset} ${jinsf}████████${reset} ${choef}████████${reset} ${yvesf}████████${reset} ${chuuf}████████${reset} ${gowof}████████${reset} ${olivf}████████${reset} 
-${heejf}████████${reset} ${hyunf}████████${reset} ${hasef}████████${reset} ${yeojf}████████${reset} ${vivif}████████${reset} ${kimlf}████████${reset} ${jinsf}████████${reset} ${choef}████████${reset} ${yvesf}████████${reset} ${chuuf}████████${reset} ${gowof}████████${reset} ${olivf}████████${reset} 
-${heejf}████████${reset} ${hyunf}████████${reset} ${hasef}████████${reset} ${yeojf}████████${reset} ${vivif}████████${reset} ${kimlf}████████${reset} ${jinsf}████████${reset} ${choef}████████${reset} ${yvesf}████████${reset} ${chuuf}████████${reset} ${gowof}████████${reset} ${olivf}████████${reset} 
+${heejf}████████${reset} ${hyunf}████████${reset} ${hasef}████████${reset} ${yeojf}████████${reset} ${vivif}████████${reset} ${kimlf}████████${reset} ${jinsf}████████${reset} ${choef}████████${reset} ${yvesf}████████${reset} ${chuuf}████████${reset} ${gowof}████████${reset} ${olivf}████████${reset}
+${heejf}████████${reset} ${hyunf}████████${reset} ${hasef}████████${reset} ${yeojf}████████${reset} ${vivif}████████${reset} ${kimlf}████████${reset} ${jinsf}████████${reset} ${choef}████████${reset} ${yvesf}████████${reset} ${chuuf}████████${reset} ${gowof}████████${reset} ${olivf}████████${reset}
+${heejf}████████${reset} ${hyunf}████████${reset} ${hasef}████████${reset} ${yeojf}████████${reset} ${vivif}████████${reset} ${kimlf}████████${reset} ${jinsf}████████${reset} ${choef}████████${reset} ${yvesf}████████${reset} ${chuuf}████████${reset} ${gowof}████████${reset} ${olivf}████████${reset}
 EOF

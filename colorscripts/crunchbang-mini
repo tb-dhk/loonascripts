@@ -1,5 +1,5 @@
-#!/bin/bash
-# Author: thevdude 
+#!/usr/bin/env bash
+# Author: thevdude
 # Source: http://crunchbang.org/forums/viewtopic.php?pid=147530#p147530
 
 my_dir="$(dirname "$0")"
@@ -8,11 +8,11 @@ initializeANSI
 
 cat << EOF
  ${heejf}▄█▄█▄ ${heejf}█ ${hyunf}▄█▄█▄ ${hyunf}█ ${hasef}▄█▄█▄ ${hasef}█ ${yeojf}▄█▄█▄ ${yeojf}█ ${vivif}▄█▄█▄ ${vivif}█ ${kimlf}▄█▄█▄ ${kimlf}█
- ${heejf}▄█▄█▄ ${heejf}▀ ${hyunf}▄█▄█▄ ${hyunf}▀ ${hasef}▄█▄█▄ ${hasef}▀ ${yeojf}▄█▄█▄ ${yeojf}▀ ${vivif}▄█▄█▄ ${vivif}▀ ${kimlf}▄█▄█▄ ${kimlf}▀ 
- ${heejf} ▀ ▀  ${heejf}▀ ${hyunf} ▀ ▀  ${hyunf}▀ ${hasef} ▀ ▀  ${hasef}▀ ${yeojf} ▀ ▀  ${yeojf}▀ ${vivif} ▀ ▀  ${vivif}▀ ${kimlf} ▀ ▀  ${kimlf}▀ 
+ ${heejf}▄█▄█▄ ${heejf}▀ ${hyunf}▄█▄█▄ ${hyunf}▀ ${hasef}▄█▄█▄ ${hasef}▀ ${yeojf}▄█▄█▄ ${yeojf}▀ ${vivif}▄█▄█▄ ${vivif}▀ ${kimlf}▄█▄█▄ ${kimlf}▀
+ ${heejf} ▀ ▀  ${heejf}▀ ${hyunf} ▀ ▀  ${hyunf}▀ ${hasef} ▀ ▀  ${hasef}▀ ${yeojf} ▀ ▀  ${yeojf}▀ ${vivif} ▀ ▀  ${vivif}▀ ${kimlf} ▀ ▀  ${kimlf}▀
 
  ${jinsf}▄█▄█▄ ${jinsf}█ ${choef}▄█▄█▄ ${choef}█ ${yvesf}▄█▄█▄ ${yvesf}█ ${chuuf}▄█▄█▄ ${chuuf}█ ${gowof}▄█▄█▄ ${gowof}█ ${olivf}▄█▄█▄ ${olivf}█
- ${jinsf}▄█▄█▄ ${jinsf}▀ ${choef}▄█▄█▄ ${choef}▀ ${yvesf}▄█▄█▄ ${yvesf}▀ ${chuuf}▄█▄█▄ ${chuuf}▀ ${gowof}▄█▄█▄ ${gowof}▀ ${olivf}▄█▄█▄ ${olivf}▀ 
- ${jinsf} ▀ ▀  ${jinsf}▀ ${choef} ▀ ▀  ${choef}▀ ${yvesf} ▀ ▀  ${yvesf}▀ ${chuuf} ▀ ▀  ${chuuf}▀ ${gowof} ▀ ▀  ${gowof}▀ ${olivf} ▀ ▀  ${olivf}▀  
+ ${jinsf}▄█▄█▄ ${jinsf}▀ ${choef}▄█▄█▄ ${choef}▀ ${yvesf}▄█▄█▄ ${yvesf}▀ ${chuuf}▄█▄█▄ ${chuuf}▀ ${gowof}▄█▄█▄ ${gowof}▀ ${olivf}▄█▄█▄ ${olivf}▀
+ ${jinsf} ▀ ▀  ${jinsf}▀ ${choef} ▀ ▀  ${choef}▀ ${yvesf} ▀ ▀  ${yvesf}▀ ${chuuf} ▀ ▀  ${chuuf}▀ ${gowof} ▀ ▀  ${gowof}▀ ${olivf} ▀ ▀  ${olivf}▀
 
 EOF

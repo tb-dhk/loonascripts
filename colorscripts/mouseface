@@ -1,5 +1,5 @@
-#!/bin/env bash
-# Author: ivo    
+#!/usr/bin/env bash
+# Author: ivo
 # Source: http://crunchbang.org/forums/viewtopic.php?pid=130522#p130522
 
 my_dir="$(dirname "$0")"
@@ -8,11 +8,11 @@ source $(dirname $0)/initialise.sh
 initializeANSI
 
 cat << EOF
- ${boldon}${heejf} █   █ ${reset} ${boldon}${hyunf}█   █ ${reset} ${boldon}${hasef}█   █ ${reset} ${boldon}${yeojf}█   █ ${reset} ${boldon}${vivif}█   █ ${reset} ${boldon}${kimlf}█   █ ${reset} 
+ ${boldon}${heejf} █   █ ${reset} ${boldon}${hyunf}█   █ ${reset} ${boldon}${hasef}█   █ ${reset} ${boldon}${yeojf}█   █ ${reset} ${boldon}${vivif}█   █ ${reset} ${boldon}${kimlf}█   █ ${reset}
  ${boldon}${heejf}  ■ ■  ${reset} ${boldon}${hyunf} ■ ■  ${reset} ${boldon}${hasef} ■ ■  ${reset} ${boldon}${yeojf} ■ ■  ${reset} ${boldon}${vivif} ■ ■  ${reset} ${boldon}${kimlf} ■ ■  ${reset}
  ${boldon}${heejf}  =■=  ${reset} ${boldon}${hyunf} =■=  ${reset} ${boldon}${hasef} =■=  ${reset} ${boldon}${yeojf} =■=  ${reset} ${boldon}${vivif} =■=  ${reset} ${boldon}${kimlf} =■=  ${reset}
- 
+
  ${jinsf} █=@=█ ${reset} ${choef}█=@=█ ${reset} ${yvesf}█=@=█ ${reset} ${chuuf}█=@=█ ${reset} ${gowof}█=@=█ ${reset} ${olivf}█=@=█ ${reset}
  ${jinsf}  ■ ■  ${reset} ${choef} ■ ■  ${reset} ${yvesf} ■ ■  ${reset} ${chuuf} ■ ■  ${reset} ${gowof} ■ ■  ${reset} ${olivf} ■ ■  ${reset}
- ${jinsf}  =■=  ${reset} ${choef} =■=  ${reset} ${yvesf} =■=  ${reset} ${chuuf} =■=  ${reset} ${gowof} =■=  ${reset} ${olivf} =■=  ${reset} 
+ ${jinsf}  =■=  ${reset} ${choef} =■=  ${reset} ${yvesf} =■=  ${reset} ${chuuf} =■=  ${reset} ${gowof} =■=  ${reset} ${olivf} =■=  ${reset}
 EOF

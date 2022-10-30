@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 my_dir="$(dirname "$0")"
 source $(dirname $0)/initialise.sh
 
@@ -7,8 +7,8 @@ initializeANSI
 cat << EOF
 
  ${white}   ████    ████████
- ${white} ██    ██  ██      
- ${white} ██    ██  ██      
+ ${white} ██    ██  ██
+ ${white} ██    ██  ██
  ${white}   ████    ████████
 
  ${white}   ████   ${heejf}       ██ ${reset}
@@ -16,9 +16,9 @@ cat << EOF
  ${white} ██    ██ ${heejf}   ██     ${reset}
  ${white}   ████   ${heejf} ██       ${reset}
 
- ${white}    ██     ██      
- ${white}   ████    ██      
- ${white}  ██  ██   ██      
- ${white} ████████  ████████ 
+ ${white}    ██     ██
+ ${white}   ████    ██
+ ${white}  ██  ██   ██
+ ${white} ████████  ████████
 
 EOF

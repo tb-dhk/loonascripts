@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Author: steampunknyanja
 # Source: http://crunchbang.org/forums/viewtopic.php?pid=146715#p146715
 
@@ -10,13 +10,13 @@ cat << EOF
  ${heejf}  ██  ██   ${heejf}██    ${hyunf}  ██  ██   ${hyunf}██    ${hasef}  ██  ██   ${hasef}██    ${yeojf}  ██  ██   ${yeojf}██    ${vivif}  ██  ██   ${vivif}██    ${kimlf}  ██  ██   ${kimlf}██
  ${heejf}██████████ ${heejf}██    ${hyunf}██████████ ${hyunf}██    ${hasef}██████████ ${hasef}██    ${yeojf}██████████ ${yeojf}██    ${vivif}██████████ ${vivif}██    ${kimlf}██████████ ${kimlf}██
  ${heejf}  ██  ██   ${heejf}██    ${hyunf}  ██  ██   ${hyunf}██    ${hasef}  ██  ██   ${hasef}██    ${yeojf}  ██  ██   ${yeojf}██    ${vivif}  ██  ██   ${vivif}██    ${kimlf}  ██  ██   ${kimlf}██
- ${heejf}██████████       ${hyunf}██████████       ${hasef}██████████       ${yeojf}██████████       ${vivif}██████████       ${kimlf}██████████   
- ${heejf}  ██  ██   ${heejf}██    ${hyunf}  ██  ██   ${hyunf}██    ${hasef}  ██  ██   ${hasef}██    ${yeojf}  ██  ██   ${yeojf}██    ${vivif}  ██  ██   ${vivif}██    ${kimlf}  ██  ██   ${kimlf}██ 
+ ${heejf}██████████       ${hyunf}██████████       ${hasef}██████████       ${yeojf}██████████       ${vivif}██████████       ${kimlf}██████████
+ ${heejf}  ██  ██   ${heejf}██    ${hyunf}  ██  ██   ${hyunf}██    ${hasef}  ██  ██   ${hasef}██    ${yeojf}  ██  ██   ${yeojf}██    ${vivif}  ██  ██   ${vivif}██    ${kimlf}  ██  ██   ${kimlf}██
 
  ${jinsf}  ██  ██   ${jinsf}██    ${choef}  ██  ██   ${choef}██    ${yvesf}  ██  ██   ${yvesf}██    ${chuuf}  ██  ██   ${chuuf}██    ${gowof}  ██  ██   ${gowof}██    ${olivf}  ██  ██   ${olivf}██
  ${jinsf}██████████ ${jinsf}██    ${choef}██████████ ${choef}██    ${yvesf}██████████ ${yvesf}██    ${chuuf}██████████ ${chuuf}██    ${gowof}██████████ ${gowof}██    ${olivf}██████████ ${olivf}██
  ${jinsf}  ██  ██   ${jinsf}██    ${choef}  ██  ██   ${choef}██    ${yvesf}  ██  ██   ${yvesf}██    ${chuuf}  ██  ██   ${chuuf}██    ${gowof}  ██  ██   ${gowof}██    ${olivf}  ██  ██   ${olivf}██
- ${jinsf}██████████       ${choef}██████████       ${yvesf}██████████       ${chuuf}██████████       ${gowof}██████████       ${olivf}██████████   
- ${jinsf}  ██  ██   ${jinsf}██    ${choef}  ██  ██   ${choef}██    ${yvesf}  ██  ██   ${yvesf}██    ${chuuf}  ██  ██   ${chuuf}██    ${gowof}  ██  ██   ${gowof}██    ${olivf}  ██  ██   ${olivf}██ 
+ ${jinsf}██████████       ${choef}██████████       ${yvesf}██████████       ${chuuf}██████████       ${gowof}██████████       ${olivf}██████████
+ ${jinsf}  ██  ██   ${jinsf}██    ${choef}  ██  ██   ${choef}██    ${yvesf}  ██  ██   ${yvesf}██    ${chuuf}  ██  ██   ${chuuf}██    ${gowof}  ██  ██   ${gowof}██    ${olivf}  ██  ██   ${olivf}██
 
 EOF

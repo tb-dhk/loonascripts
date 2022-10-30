@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 my_dir="$(dirname "$0")"
 source $(dirname $0)/initialise.sh
 
@@ -16,9 +16,9 @@ cat << EOF
  ${kimlf} ████████ ${jinsf} ████████ ${choef} ████████
  ${kimlf} ▝▜████▛▘ ${jinsf} ▝▜████▛▘ ${choef} ▝▜████▛▘
 
- ${yvesf}    ██    ${chuuf}    ██    ${gowof} ████████ ${olivf}    ██    
- ${yvesf}   ████   ${chuuf}   ████   ${gowof}  ██████  ${olivf}   ████   
- ${yvesf}  ██████  ${chuuf}  ██████  ${gowof}   ████   ${olivf}  ██████  
- ${yvesf} ████████ ${chuuf} ████████ ${gowof}    ██    ${olivf} ████████ 
+ ${yvesf}    ██    ${chuuf}    ██    ${gowof} ████████ ${olivf}    ██
+ ${yvesf}   ████   ${chuuf}   ████   ${gowof}  ██████  ${olivf}   ████
+ ${yvesf}  ██████  ${chuuf}  ██████  ${gowof}   ████   ${olivf}  ██████
+ ${yvesf} ████████ ${chuuf} ████████ ${gowof}    ██    ${olivf} ████████
 
 EOF
