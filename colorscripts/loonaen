@@ -5,7 +5,7 @@ source $(dirname $0)/initialise.sh
 initializeANSI
 
 cat << EOF
-
+ 
  ${white} ██          ████      ████    ████████     ██    ${heejf}       ██ ${reset}
  ${white} ██        ██    ██  ██    ██  ██    ██    ████   ${heejf}     ██   ${reset}
  ${white} ██        ██    ██  ██    ██  ██    ██   ██  ██  ${heejf}   ██     ${reset}

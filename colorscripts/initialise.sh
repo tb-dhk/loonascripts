@@ -34,6 +34,7 @@ initializeANSI()
   ulon="${esc}[4m";      uloff="${esc}[24m"
   invon="${esc}[7m";     invoff="${esc}[27m"
   
+  white="${esc}[37m";
   reset="${esc}[0m";
 
   Bf="${esc}[30m"
