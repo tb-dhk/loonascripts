@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Author: pfh
 # Source: http://crunchbang.org/forums/viewtopic.php?pid=127737#p127737
 
@@ -8,12 +8,12 @@ initializeANSI
 
 cat << EOF
 
- ${heejf}▒▒▒▒${reset} ${boldon}${heejf}▒▒${reset}   ${hyunf}▒▒▒▒${reset} ${boldon}${hyunf}▒▒${reset}   ${hasef}▒▒▒▒${reset} ${boldon}${hasef}▒▒${reset}   ${yeojf}▒▒▒▒${reset} ${boldon}${yeojf}▒▒${reset}   ${vivif}▒▒▒▒${reset} ${boldon}${vivif}▒▒${reset}   ${kimlf}▒▒▒▒${reset} ${boldon}${kimlf}▒▒${reset} 
- ${heejf}▒▒ ■${reset} ${boldon}${heejf}▒▒${reset}   ${hyunf}▒▒ ■${reset} ${boldon}${hyunf}▒▒${reset}   ${hasef}▒▒ ■${reset} ${boldon}${hasef}▒▒${reset}   ${yeojf}▒▒ ■${reset} ${boldon}${yeojf}▒▒${reset}   ${vivif}▒▒ ■${reset} ${boldon}${vivif}▒▒${reset}   ${kimlf}▒▒ ■${reset} ${boldon}${kimlf}▒▒${reset}  
+ ${heejf}▒▒▒▒${reset} ${boldon}${heejf}▒▒${reset}   ${hyunf}▒▒▒▒${reset} ${boldon}${hyunf}▒▒${reset}   ${hasef}▒▒▒▒${reset} ${boldon}${hasef}▒▒${reset}   ${yeojf}▒▒▒▒${reset} ${boldon}${yeojf}▒▒${reset}   ${vivif}▒▒▒▒${reset} ${boldon}${vivif}▒▒${reset}   ${kimlf}▒▒▒▒${reset} ${boldon}${kimlf}▒▒${reset}
+ ${heejf}▒▒ ■${reset} ${boldon}${heejf}▒▒${reset}   ${hyunf}▒▒ ■${reset} ${boldon}${hyunf}▒▒${reset}   ${hasef}▒▒ ■${reset} ${boldon}${hasef}▒▒${reset}   ${yeojf}▒▒ ■${reset} ${boldon}${yeojf}▒▒${reset}   ${vivif}▒▒ ■${reset} ${boldon}${vivif}▒▒${reset}   ${kimlf}▒▒ ■${reset} ${boldon}${kimlf}▒▒${reset}
  ${heejf}▒▒ ${reset}${boldon}${heejf}▒▒▒▒${reset}   ${hyunf}▒▒ ${reset}${boldon}${hyunf}▒▒▒▒${reset}   ${hasef}▒▒ ${reset}${boldon}${hasef}▒▒▒▒${reset}   ${yeojf}▒▒ ${reset}${boldon}${yeojf}▒▒▒▒${reset}   ${vivif}▒▒ ${reset}${boldon}${vivif}▒▒▒▒${reset}   ${kimlf}▒▒ ${reset}${boldon}${kimlf}▒▒▒▒${reset}
 
- ${jinsf}▒▒▒▒${reset} ${boldon}${jinsf}▒▒${reset}   ${choef}▒▒▒▒${reset} ${boldon}${choef}▒▒${reset}   ${yvesf}▒▒▒▒${reset} ${boldon}${yvesf}▒▒${reset}   ${chuuf}▒▒▒▒${reset} ${boldon}${chuuf}▒▒${reset}   ${gowof}▒▒▒▒${reset} ${boldon}${gowof}▒▒${reset}   ${olivf}▒▒▒▒${reset} ${boldon}${olivf}▒▒${reset} 
- ${jinsf}▒▒ ■${reset} ${boldon}${jinsf}▒▒${reset}   ${choef}▒▒ ■${reset} ${boldon}${choef}▒▒${reset}   ${yvesf}▒▒ ■${reset} ${boldon}${yvesf}▒▒${reset}   ${chuuf}▒▒ ■${reset} ${boldon}${chuuf}▒▒${reset}   ${gowof}▒▒ ■${reset} ${boldon}${gowof}▒▒${reset}   ${olivf}▒▒ ■${reset} ${boldon}${olivf}▒▒${reset}  
+ ${jinsf}▒▒▒▒${reset} ${boldon}${jinsf}▒▒${reset}   ${choef}▒▒▒▒${reset} ${boldon}${choef}▒▒${reset}   ${yvesf}▒▒▒▒${reset} ${boldon}${yvesf}▒▒${reset}   ${chuuf}▒▒▒▒${reset} ${boldon}${chuuf}▒▒${reset}   ${gowof}▒▒▒▒${reset} ${boldon}${gowof}▒▒${reset}   ${olivf}▒▒▒▒${reset} ${boldon}${olivf}▒▒${reset}
+ ${jinsf}▒▒ ■${reset} ${boldon}${jinsf}▒▒${reset}   ${choef}▒▒ ■${reset} ${boldon}${choef}▒▒${reset}   ${yvesf}▒▒ ■${reset} ${boldon}${yvesf}▒▒${reset}   ${chuuf}▒▒ ■${reset} ${boldon}${chuuf}▒▒${reset}   ${gowof}▒▒ ■${reset} ${boldon}${gowof}▒▒${reset}   ${olivf}▒▒ ■${reset} ${boldon}${olivf}▒▒${reset}
  ${jinsf}▒▒ ${reset}${boldon}${jinsf}▒▒▒▒${reset}   ${choef}▒▒ ${reset}${boldon}${choef}▒▒▒▒${reset}   ${yvesf}▒▒ ${reset}${boldon}${yvesf}▒▒▒▒${reset}   ${chuuf}▒▒ ${reset}${boldon}${chuuf}▒▒▒▒${reset}   ${gowof}▒▒ ${reset}${boldon}${gowof}▒▒▒▒${reset}   ${olivf}▒▒ ${reset}${boldon}${olivf}▒▒▒▒${reset}
 
 EOF

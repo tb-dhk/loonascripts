@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # ANSI color scheme script by pfh
 # Source: http://crunchbang.org/forums/viewtopic.php?pid=157979#p157979
 # Initializing mod by lolilolicon from Archlinux
@@ -9,15 +9,15 @@ initializeANSI
 
 cat << EOF
 
-$heejf    ▄▄▄      $hyunf    ▄▄▄      $hasef    ▄▄▄      $yeojf    ▄▄▄      $vivif    ▄▄▄      $kimlf    ▄▄▄     
-$heejf   ▀█▀██  ▄  $hyunf   ▀█▀██  ▄  $hasef   ▀█▀██  ▄  $yeojf   ▀█▀██  ▄  $vivif   ▀█▀██  ▄  $kimlf   ▀█▀██  ▄ 
-$heejf ▀▄██████▀   $hyunf ▀▄██████▀   $hasef ▀▄██████▀   $yeojf ▀▄██████▀   $vivif ▀▄██████▀   $kimlf ▀▄██████▀  
-$heejf    ▀█████   $hyunf    ▀█████   $hasef    ▀█████   $yeojf    ▀█████   $vivif    ▀█████   $kimlf    ▀█████  
+$heejf    ▄▄▄      $hyunf    ▄▄▄      $hasef    ▄▄▄      $yeojf    ▄▄▄      $vivif    ▄▄▄      $kimlf    ▄▄▄
+$heejf   ▀█▀██  ▄  $hyunf   ▀█▀██  ▄  $hasef   ▀█▀██  ▄  $yeojf   ▀█▀██  ▄  $vivif   ▀█▀██  ▄  $kimlf   ▀█▀██  ▄
+$heejf ▀▄██████▀   $hyunf ▀▄██████▀   $hasef ▀▄██████▀   $yeojf ▀▄██████▀   $vivif ▀▄██████▀   $kimlf ▀▄██████▀
+$heejf    ▀█████   $hyunf    ▀█████   $hasef    ▀█████   $yeojf    ▀█████   $vivif    ▀█████   $kimlf    ▀█████
 $heejf       ▀▀▀▀▄ $hyunf       ▀▀▀▀▄ $hasef       ▀▀▀▀▄ $yeojf       ▀▀▀▀▄ $vivif       ▀▀▀▀▄ $kimlf       ▀▀▀▀▄
 
-$jinsf    ▄▄▄      $choef    ▄▄▄      $yvesf    ▄▄▄      $chuuf    ▄▄▄      $gowof    ▄▄▄      $olivf    ▄▄▄     
-$jinsf   ▀█▀██  ▄  $choef   ▀█▀██  ▄  $yvesf   ▀█▀██  ▄  $chuuf   ▀█▀██  ▄  $gowof   ▀█▀██  ▄  $olivf   ▀█▀██  ▄ 
-$jinsf ▀▄██████▀   $choef ▀▄██████▀   $yvesf ▀▄██████▀   $chuuf ▀▄██████▀   $gowof ▀▄██████▀   $olivf ▀▄██████▀  
-$jinsf    ▀█████   $choef    ▀█████   $yvesf    ▀█████   $chuuf    ▀█████   $gowof    ▀█████   $olivf    ▀█████  
+$jinsf    ▄▄▄      $choef    ▄▄▄      $yvesf    ▄▄▄      $chuuf    ▄▄▄      $gowof    ▄▄▄      $olivf    ▄▄▄
+$jinsf   ▀█▀██  ▄  $choef   ▀█▀██  ▄  $yvesf   ▀█▀██  ▄  $chuuf   ▀█▀██  ▄  $gowof   ▀█▀██  ▄  $olivf   ▀█▀██  ▄
+$jinsf ▀▄██████▀   $choef ▀▄██████▀   $yvesf ▀▄██████▀   $chuuf ▀▄██████▀   $gowof ▀▄██████▀   $olivf ▀▄██████▀
+$jinsf    ▀█████   $choef    ▀█████   $yvesf    ▀█████   $chuuf    ▀█████   $gowof    ▀█████   $olivf    ▀█████
 $jinsf       ▀▀▀▀▄ $choef       ▀▀▀▀▄ $yvesf       ▀▀▀▀▄ $chuuf       ▀▀▀▀▄ $gowof       ▀▀▀▀▄ $olivf       ▀▀▀▀▄
 EOF

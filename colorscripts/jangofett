@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Author: pfh
 # Source: http://crunchbang.org/forums/viewtopic.php?pid=129265#p129265
 
@@ -9,15 +9,15 @@ initializeANSI
 cat << EOF
 
 ${heejf}   ▄█████▄ ${hyunf}   ▄█████▄ ${hasef}   ▄█████▄ ${yeojf}   ▄█████▄ ${vivif}   ▄█████▄ ${kimlf}   ▄█████▄
-${heejf}   █▄▄ ▄▄█ ${hyunf}   █▄▄ ▄▄█ ${hasef}   █▄▄ ▄▄█ ${yeojf}   █▄▄ ▄▄█ ${vivif}   █▄▄ ▄▄█ ${kimlf}   █▄▄ ▄▄█  
-${heejf}   ███ ███ ${hyunf}   ███ ███ ${hasef}   ███ ███ ${yeojf}   ███ ███ ${vivif}   ███ ███ ${kimlf}   ███ ███  
-${heejf}   ▀██ ██▀ ${hyunf}   ▀██ ██▀ ${hasef}   ▀██ ██▀ ${yeojf}   ▀██ ██▀ ${vivif}   ▀██ ██▀ ${kimlf}   ▀██ ██▀  
-${heejf}     ▀ ▀   ${hyunf}     ▀ ▀   ${hasef}     ▀ ▀   ${yeojf}     ▀ ▀   ${vivif}     ▀ ▀   ${kimlf}     ▀ ▀   
+${heejf}   █▄▄ ▄▄█ ${hyunf}   █▄▄ ▄▄█ ${hasef}   █▄▄ ▄▄█ ${yeojf}   █▄▄ ▄▄█ ${vivif}   █▄▄ ▄▄█ ${kimlf}   █▄▄ ▄▄█
+${heejf}   ███ ███ ${hyunf}   ███ ███ ${hasef}   ███ ███ ${yeojf}   ███ ███ ${vivif}   ███ ███ ${kimlf}   ███ ███
+${heejf}   ▀██ ██▀ ${hyunf}   ▀██ ██▀ ${hasef}   ▀██ ██▀ ${yeojf}   ▀██ ██▀ ${vivif}   ▀██ ██▀ ${kimlf}   ▀██ ██▀
+${heejf}     ▀ ▀   ${hyunf}     ▀ ▀   ${hasef}     ▀ ▀   ${yeojf}     ▀ ▀   ${vivif}     ▀ ▀   ${kimlf}     ▀ ▀
 
 ${jinsf}   ▄█████▄ ${choef}   ▄█████▄ ${yvesf}   ▄█████▄ ${chuuf}   ▄█████▄ ${gowof}   ▄█████▄ ${olivf}   ▄█████▄
-${jinsf}   █▄▄ ▄▄█ ${choef}   █▄▄ ▄▄█ ${yvesf}   █▄▄ ▄▄█ ${chuuf}   █▄▄ ▄▄█ ${gowof}   █▄▄ ▄▄█ ${olivf}   █▄▄ ▄▄█  
-${jinsf}   ███ ███ ${choef}   ███ ███ ${yvesf}   ███ ███ ${chuuf}   ███ ███ ${gowof}   ███ ███ ${olivf}   ███ ███  
-${jinsf}   ▀██ ██▀ ${choef}   ▀██ ██▀ ${yvesf}   ▀██ ██▀ ${chuuf}   ▀██ ██▀ ${gowof}   ▀██ ██▀ ${olivf}   ▀██ ██▀  
-${jinsf}     ▀ ▀   ${choef}     ▀ ▀   ${yvesf}     ▀ ▀   ${chuuf}     ▀ ▀   ${gowof}     ▀ ▀   ${olivf}     ▀ ▀   
+${jinsf}   █▄▄ ▄▄█ ${choef}   █▄▄ ▄▄█ ${yvesf}   █▄▄ ▄▄█ ${chuuf}   █▄▄ ▄▄█ ${gowof}   █▄▄ ▄▄█ ${olivf}   █▄▄ ▄▄█
+${jinsf}   ███ ███ ${choef}   ███ ███ ${yvesf}   ███ ███ ${chuuf}   ███ ███ ${gowof}   ███ ███ ${olivf}   ███ ███
+${jinsf}   ▀██ ██▀ ${choef}   ▀██ ██▀ ${yvesf}   ▀██ ██▀ ${chuuf}   ▀██ ██▀ ${gowof}   ▀██ ██▀ ${olivf}   ▀██ ██▀
+${jinsf}     ▀ ▀   ${choef}     ▀ ▀   ${yvesf}     ▀ ▀   ${chuuf}     ▀ ▀   ${gowof}     ▀ ▀   ${olivf}     ▀ ▀
 
 EOF
