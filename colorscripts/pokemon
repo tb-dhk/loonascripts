@@ -6,7 +6,7 @@ initializeANSI
 
 cat << EOF
 
-${Bf}                        ██████                    ${Bf}████████                  ██              ${Bf}████████                  ████████
+                        ${Bf}██████                    ${Bf}████████                  ██              ${Bf}████████                  ████████
                       ${Bf}██${hyunf}${ON}██████${OFF}${Bf}██                ${Bf}██${heejf}${ON}██████${OFF}██${Bf}██              ██${heejf}██${Bf}██          ${Bf}██${yeojf}${ON}██████${OFF}██${Bf}████            ██${yeojf}${ON}████████${OFF}${Bf}██
                   ${Bf}██████${hyunf}${ON}██████${OFF}${Bf}██              ${Bf}██${heejf}${ON}██████████${OFF}██${Bf}██            ██${heejf}████${Bf}██      ${Bf}██${yeojf}${ON}████████████${OFF}██${Bf}████      ████${yeojf}${ON}██████${OFF}████${Bf}██
               ${Bf}████${hyunf}${ON}████${OFF}██${ON}████${OFF}██${ON}██${OFF}${Bf}████          ${Bf}██${heejf}${ON}████████████${OFF}${Bf}██            ██${heejf}████${Bf}██      ${Bf}██${yeojf}${ON}██████████████${OFF}${Bf}██${vivif}██${Bf}████  ██${yeojf}${ON}████${OFF}██${Bf}██${yeojf}████${Bf}██
